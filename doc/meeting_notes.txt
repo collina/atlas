@@ -1,0 +1,9 @@
+2014-03-07:
+    * We should try to get more probes in order to accumulate credits faster.
+    * A list of interesting targets (i.e., blocked web sites) would be helpful:
+        - new york times
+        - torrent sites such as thepiratebay.se
+        - adult content
+    * Come up with a smart algorithm for continuous scans of interesting
+      targets.  Depending on the threat, target, etc., the algorithm's
+      parameters would differ.
