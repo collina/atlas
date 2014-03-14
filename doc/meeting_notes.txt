@@ -1,3 +1,33 @@
+2014-03-14:
+    * First, we want to get more Atlas probes to accumulate credits.
+    * Organisation is interested in real-time assessment of high-profile news
+      sites such as the New York Times.
+    * Big concern: Censors could whitelist all Atlas probes.  But:
+      - Something like that has never happend.  Would be interesting to
+        witness.
+      - Blocking them comes at a (high?) cost.
+      - Many probes might have dynamic IP addresses which would increase cost.
+      - We should acknowledge possibility, though.
+    * We want to acquire a list of targets to probe: (Collin)
+      - DNS (high-profile web sites, file sharing, adult content, ...).  Look
+        at Herdict, citizen lab paper and maybe Google trends, news sites,
+        Twitter, ...
+      - Ping, traceroute: Tor directory authorities and relays.
+      - X.509: EMail providers.
+    * In general, we want to balance three things:
+      - Timeliness.
+      - Number and diversity of targets.
+      - Countries/ASes (maybe look at Google trends and Herdict etc to get
+                        countries of current interest)
+    * We need a smart sampling algorithm.  Majority of probes are in US and DE
+      and we don't care that much about them. (Roya)
+    * We might get some additional credit directly from RIPE.
+    * We should get a better idea of how RIPE's API works to start writing some
+      code.  Also, JSON parsers would be good to have. (Philipp)
+    * We should be very clear on how our stuff is different from Herdict,
+      M-Lab, OONI, PlanetLab etc. (Collin)
+    * Notes should go on the wiki.
+
 2014-03-07:
     * We should try to get more probes in order to accumulate credits faster.
     * A list of interesting targets (i.e., blocked web sites) would be helpful:
