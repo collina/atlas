@@ -1,0 +1,29 @@
+Number of IPs[1]:
+Total number: 3 551 447 408
+  Name, allocated IPs, Percentage:
+  United Kingdom  123,592784	3.480 %
+  Turkey	        16,238,336	0.457 %
+  Belgium	        11,586,240	0.326 %
+  Russia          45,430,496	1.279 %
+   
+Number of ISPs [2]:
+  United kingdom  ??
+  Turkey          50
+  Belgium         61
+  Russia          300
+
+Number of AS's: Total number[1]: 65 408
+  United Kingdom  1954 3 %
+  Turkey          456
+  Belgium         236
+  Russia          5109 7.8%
+
+
+TO-DO: find some stat about how mamy times these countries appeared in news for their censorship or some kinda stuff. 
+Herdit was totally messed up in the sense that they haven't even had any info about recent Turky stuff...
+
+
+Data from RIR websites as of: Sun Mar 23 2014
+Ref:
+[1] http://www-public.it-sudparis.eu/~maigron/RIR_Stats/RIR_Delegations/World/ASN-ByNb.html
+[2] http://www.nationsencyclopedia.com/WorldStats/CIA-Internet-Service-Providers-ISPs.html#map
