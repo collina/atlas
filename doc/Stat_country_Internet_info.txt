@@ -1,10 +1,10 @@
 Number of IPs[1]:
 Total number: 3 551 447 408
-  Name, allocated IPs, Percentage:
-  United Kingdom      123,592784	3.480 %
-  Turkey	            16,238,336	0.457 %
-  Belgium	            11,586,240	0.326 %
-  Russia              45,430,496	1.279 %
+  Counry              allocated IPs Percentage
+  United Kingdom      123,592784    3.480 %
+  Turkey              16,238,336    0.457 %
+  Belgium             11,586,240    0.326 %
+  Russia              45,430,496    1.279 %
    
 Number of ISPs [2]:
   United kingdom  ??
