@@ -1,3 +1,36 @@
+2014-03-21:
+    * HTTP requests would be interesting for us.  Might be problematic for them
+      because of spamming issues.
+
+    * We could use SSL-based measurements targeting email providers to catch
+      state-sponsored attacks.
+
+    * Answer to "what if they forge results?": It's way easier for censors to
+      simply blacklist probes.  Tampering/whitelisting results is more
+      difficult.
+
+    * Cost function is very deterministic.  It depends on test, size of
+      packets, etc.
+
+    * We could do DNS queries to non-existing targets because we won't get
+      charged for non-existing responses.  We might get some isolated DNS
+      injection responses, though.
+
+    * When doing measurements, let's put our parameters on the wiki so Roya can
+      figure out the cost function.
+
+    * With Turkey, we now have a good practical example.  Russia would be
+      another good one.
+
+    * We want situational awareness to get a good and recent target list.
+      Herdict might be low-hanging fruit and they have a JSON API.
+
+    * High-level and important question: "Where exactly is Twitter blocked?".
+
+    * Regarding censorship in Europe: Is there really a lawful list of censored
+      web pages?  Wouldn't this be like an index of CP?  How does engelliweb
+      get its list?
+
 2014-03-14:
     * First, we want to get more Atlas probes to accumulate credits.
     * Organisation is interested in real-time assessment of high-profile news
