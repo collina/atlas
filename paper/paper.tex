@@ -21,7 +21,12 @@
 
 % This version uses the latex2e styles, not the very ancient 2.09 stuff.
 \documentclass[letterpaper,twocolumn,10pt]{article}
+
 \usepackage{usenix,epsfig,endnotes}
+\usepackage{hyperref}
+\usepackage[backend=bibtex]{biblatex}
+\bibliography{bibliography}
+
 \begin{document}
 
 %don't want date printed
@@ -59,11 +64,15 @@ Whet our appetites.
 \input{introduction}
 
 \input{related_work}
+\cite{Bortzmeyer14,Aben14}
 
 \input{acknowledgments}
 
-{\footnotesize \bibliographystyle{acm}
-\bibliography{bibliography}}
+%{\footnotesize \bibliographystyle{acm}
+%\bibliography{bibliography}}
+
+\raggedright
+\printbibliography
 
 \theendnotes
 
