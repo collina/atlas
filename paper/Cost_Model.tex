@@ -1,0 +1,22 @@
+\section{Measurment Cost}
+
+
+\begin{table}[h] 
+
+\hspace{2in}
+\centering % centering table 
+\begin{tabular}{c rr} % creating eight columns 
+\hline\hline %inserting double-line 
+Unit Measurement& Type \multicolumn{3}{c}{Cost} \\ [0.5ex] 
+\hline % inserts single-line 
+DNS\slash DNS6 & TCP & 20\\ % Entering row contents 
+DNS\slash DNS6 & UDP & 10\\ 
+SSLCert\slash SSLCert6 & & 10 \\
+Ping\slash Ping6 & & $N * (int(S/1500)+1)$\\
+Traceroute\slash Traceroute6 & & $ 10*N*(int(S/1500)+1)$\\
+%%News & 9 & -3 & 7& 9& -5& -1& 9\\[1ex] % [1ex] adds vertical space 
+\hline % inserts single-line 
+\end{tabular} 
+\caption{Measurement Cost Model where N and S are number of packet in the train and packet size, respectively.} %title of the table 
+\label{tab:hresult} 
+\end{table} 
