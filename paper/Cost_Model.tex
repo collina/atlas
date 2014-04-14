@@ -5,7 +5,7 @@ The RIPE Atlas credit system works based on a linear cost model. Each user has a
 
 \subsection{calculating costs}
 
-Predicted cost = \sum_{i=1}^{5} (C_i * N_i)  where i can be (DNS, SSL, ...)\\
+Predicted cost = $\sum_{i=1}^{5} (C_i * N_i)$  where i can be (DNS, SSL, ...)\\
 Remaining credits = min(available cost, desired cost) - predicted cost
 
 Note that it is a linear cost model so number of probs included doesn't matter in the cost part it matters when we suggest the experiment by just uniformly distribute the possible number of measurements on one(total experiments possible/Num probs)
@@ -19,7 +19,7 @@ To test that our cost prediction is accurate, we ran a series of unit cost with 
 \centering 
 \begin{tabular}{c rr} 
 \hline\hline 
-Unit Measurement& Type \multicolumn{3}{c}{Cost} \\ [0.5ex] 
+Unit Measurement& Type & Cost \\ [0.5ex] 
 \hline 
 DNS\slash DNS6 & TCP & 20\\ 
 DNS\slash DNS6 & UDP & 10\\ 
