@@ -1,0 +1,33 @@
+
+\section{Design Experiments considering their costs}
+
+The RIPE Atlas credit system works based on a linear cost model. Each user has a know credit balance that can be earned by hosting RIPE Atlas probes, or also by receiving transferred credits. Currently, limited possible type of measurements can be done with known unit costs as described in Table~\ref{tab:cost}. The process of scheduling an experiment starts with each user submit details about the experiment, then the system calculate approximate unit costs. After results are given, the proper amount is subtracted from users credits. Therefore making decisions about how many and what type of measurements can be done is challenging. We develop a command-based application programming interface(API) to help users with their experiment design. 
+
+\subsection{calculating costs}
+
+Predicted cost = \sum_{i=1}^{5} (C_i * N_i)  where i can be (DNS, SSL, ...)\\
+Remaining credits = min(available cost, desired cost) - predicted cost
+
+Note that it is a linear cost model so number of probs included doesn't matter in the cost part it matters when we suggest the experiment by just uniformly distribute the possible number of measurements on one(total experiments possible/Num probs)
+This should be included in the API philipp wrote (TODO)
+
+\subsection{Evaluation of our cost model}
+To test that our cost prediction is accurate, we ran a series of unit cost with different values, and compared  the suggested cost and the actual credit subtracted with the cost our approach suggest. Because the number of possible cases are finite we can run all unit measurements, then calculate confidence interval to show how good we do.
+\begin{table}[h] 
+
+\hspace{2in}
+\centering 
+\begin{tabular}{c rr} 
+\hline\hline 
+Unit Measurement& Type \multicolumn{3}{c}{Cost} \\ [0.5ex] 
+\hline 
+DNS\slash DNS6 & TCP & 20\\ 
+DNS\slash DNS6 & UDP & 10\\ 
+SSLCert\slash SSLCert6 & & 10 \\
+Ping\slash Ping6 & & $N * (int(S/1500)+1)$\\
+Traceroute\slash Traceroute6 & & $ 10*N*(int(S/1500)+1)$\\[1ex] 
+\hline 
+\end{tabular} 
+\caption{Measurement Cost Model where N and S are number of packet in the train and packet size, respectively.} 
+\label{tab:cost} 
+\end{table} 
