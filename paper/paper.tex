@@ -24,8 +24,15 @@
 
 \usepackage{usenix,epsfig,endnotes}
 \usepackage{hyperref}
+\usepackage{color}
 \usepackage[backend=bibtex]{biblatex}
 \bibliography{bibliography}
+
+% Don't use monospace URLs.
+\urlstyle{sf}
+
+\definecolor{dred}{rgb}{0.8,0,0}
+\hypersetup{colorlinks=true,urlcolor=blue,linkcolor=blue,citecolor=blue}
 
 \begin{document}
 
@@ -35,21 +42,16 @@
 %make title bold and 14 pt font (Latex default is non-bold, 16 pt)
 \title{\Large \bf Our Paper}
 
-%for single author (just remove % characters)
 \author{
-{\rm First Name}\\
-First Institution
-\and
-{\rm Second Name}\\
-Second Institution
-\and
-{\rm Third Name}\\
-Third Institution
-% copy the following lines to add more authors
+% {\rm First Name}\\
+% First Institution
 % \and
-% {\rm Name}\\
-%Name Institution
-} % end author
+% {\rm Second Name}\\
+% Second Institution
+% \and
+% {\rm Third Name}\\
+% Third Institution
+}
 
 \maketitle
 
@@ -62,14 +64,13 @@ Your Abstract Text Goes Here.  Just a few facts.
 Whet our appetites.
 
 \input{introduction}
-\input{Cost_Model}
+
 \input{related_work}
+
+\input{Cost_Model}
 \cite{Bortzmeyer14,Aben14}
 
 \input{acknowledgments}
-
-%{\footnotesize \bibliographystyle{acm}
-%\bibliography{bibliography}}
 
 \raggedright
 \printbibliography
