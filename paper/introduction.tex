@@ -1,3 +1,27 @@
 \section{Introduction}
 
 Talking about the importance of RIPE Atlas in the past months. Refer to papers that used RIPE to collect data(\cite{lutu2014understanding} and \cite{brownlee2014searching}).
+
+% Point out what problems the world is facing and how RIPE Atlas can help.
+
+% Quick description of Atlas.
+RIPE Atlas~\cite{atlas} is an Internet measurement network which was started in 2010 by RIPE NCC.
+All measurement probes which constitute the network are run by volunteers.  Once a user connected
+her probe to the network, it can be used for measurements and the user is also able to run custom
+measurements by spending some of the network's currency, Atlas credits.  These credits are awarded
+automatically based on the uptime of contributed probes.
+
+% What kind of measurements does Atlas allow?
+As of today, Atlas allows four types of measurements; ping, traceroute, DNS resolution, and X.509
+certificate fetching.  All four measurement types can further be parameterised for more fine-grained
+control.
+
+% What are our contributions?  Is there more?
+This work has three main contributions.
+\begin{itemize}
+	\item We evaluate the aptitude of RIPE Atlas for censorship analysis.
+	\item We propose an algorithm to balance
+	timeliness, diversity, and cost to facilitate effective censorship analysis.\footnote{All our
+	code will be publicly available but we redacted the URL for anonymisation.}
+	\item We present censorship analysis results based on several months of measurements.
+\end{itemize}
