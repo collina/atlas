@@ -1,27 +1,34 @@
 \section{Introduction}
 %train of thoughts: talking about the recent popularity of censorship in the world and countires in
-%africa and middle easts(cite news article) Then talk about the exsisting methods and briefly critic each onem then
+%africa and middle easts(cite news article) Then talk about the exsisting methods and briefly critic
+%each one them
 %talk about what were the charactestics we were interested to have in current tools, then talk about
 %Ripe atlas as a suitable tool, then talk about their issue related to cost function then talk about
 %our contributions.
+Two problematic issues are currently happening regards of Internet state: on one hand tools to apply
+censorship(in large scale like countries) is more available. Iranian government or African countries
+are just buying tools from China ... on the other hand it is challenging to find a reliable measurement machines.
 
+There are mainly two different ways to detect blockages of websites. Researchers can directly
+investigate conncetivity of clients in different countries by using volunteered distributed
+infrastructures such as PlanetLab(Cite), M-lab(Cite),and DIMES(Cite). As shwon by many previous works(cites),beside that the number of
+nodes are geographically and topologically biased, deploying any measurements take whiles.
+Researchers can also indirectly check the intentional packet drops using different side channels
+such as idle scans(cite roya's paper). The limitation with that approach is that current state of
+the arts for the idle scans are limited to test layer three connectivity. 
 %TODO: Collin and Philipp find/cite some news about african countries adopting censorship softwares.
+In the process of finding a proper tool to deploy quickly to test censorship, we summerized the
+properties that the tool should have. In our opinion, these are the necessary properties:
+availability, easy to use,  .  After analysing
+different existing tools we agreed that RIPE ATLAS is actually a good choice to do internet
+measurements studies. There are easy to setup and easy to use. The atlas for interesting regions  
+Talking about the importance of RIPE Atlas in the past months.
 
-% talking about the scope of the problem
-Tools for discovering censorship are essential considering their importance for journalists and
-activists in many countires. Currently, the existaning infruastructures lack representetive(measurment machines) in
-regions that they matter the most or they are not easy to use. 
-
-Talking about the importance of RIPE Atlas in the past months. Refer to papers that used RIPE to collect data(\cite{lutu2014understanding} and \cite{brownlee2014searching}).
-
-% Point out what problems the world is facing and how RIPE Atlas can help.
-
-% Quick description of Atlas.
 RIPE Atlas~\cite{atlas} is an Internet measurement network which was started in 2010 by RIPE NCC.
 All measurement probes which constitute the network are run by volunteers.  Once a user connected
 her probe to the network, it can be used for measurements and the user is also able to run custom
 measurements by spending some of the network's currency, Atlas credits.  These credits are awarded
-automatically based on the uptime of contributed probes.
+automatically based on the upme of contributed probes.
 
 % What kind of measurements does Atlas allow?
 As of today, Atlas allows four types of measurements; ping, traceroute, DNS resolution, and X.509
