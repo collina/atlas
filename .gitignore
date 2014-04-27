@@ -1,0 +1,11 @@
+code/cartographer/cartographer.xcworkspace
+
+code/cartographer/cache/*
+
+*.pyc
+
+code/cartographer/api_key.txt
+
+*.pyc
+
+*.pyc
