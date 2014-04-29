@@ -16,10 +16,10 @@ class cache():
         for measurement_id in measurement_ids:
             returned_local_existence = self.check_local_existence(measurement_id, type = type)
             if returned_local_existence is not False:
-                definitions.logger.info("Found Cache for Measurement %s at Path: %s" % (measurement_id, returned_local_existence))
+                definitions.logger.debug("Found Cache for Measurement %s at Path: %s" % (measurement_id, returned_local_existence))
                 results_to_return.append(returned_local_existence)
             else:
-                definitions.logger.info("Missed Cache for Measurement %s." % (measurement_id))
+                definitions.logger.debug("Missed Cache for Measurement %s." % (measurement_id))
                 returned_remote_existence = self.check_remote_existence(measurement_id, type = type)
                 if returned_remote_existence is not False:
                     results_to_return.append(returned_remote_existence)
@@ -49,7 +49,7 @@ class cache():
             
             return open(cache_output_path, 'rb')
         except Exception as err:
-            definitions.logger.info("Error Retrieving Remote Active Probes File: %s" % err)
+            definitions.logger.error("Error Retrieving Remote Active Probes File: %s" % err)
             return False
         
         return False

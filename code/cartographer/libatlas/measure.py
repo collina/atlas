@@ -18,31 +18,11 @@ class measure():
     def get_chunks(self, arr, chunk_size = 10):
         return [arr[start:start+chunk_size] for start in range(0, len(arr), chunk_size)]
     
-    def define_sample_sqlite(self, database, target_countries = ['WW'], unit_sample = 'asn', samples_per_unit = 3, exclude_probes = None):
-        active_probes = {}
-        conn = sqlite3.connect(database)
-        c = conn.cursor()
-        
-        dict_keys = ['probe_id', 'probe_country', 'probe_asn', 'probe_address', 'dns_location', 'seen_address']
-        
-        c.execute("SELECT probe_id, probe_country, probe_asn, probe_address, dns_location, seen_address FROM probes GROUP BY probe_id, seen_address")
-        sql_dataset = c.fetchall()
-        
-        for probe_id, probe_country, probe_asn, probe_address, dns_location, seen_address in sql_dataset:
-            
-            if (probe_country in target_countries and dns_location in target_countries) or (target_countries == ['WW'] and dns_location != "Google"):
-                
-                if not (active_probes.has_key(probe_country)):
-                    active_probes[probe_country] = {}
-                if not (active_probes.has_key(probe_asn)):
-                    active_probes[probe_country][probe_asn] = {}
-                active_probes[probe_country][probe_asn][probe_id] = dict(zip(dict_keys, [probe_id, probe_country, probe_asn, probe_address, dns_location, seen_address]))
-        return self.define_sample(target_countries = target_countries, unit_sample = unit_sample, samples_per_unit = samples_per_unit, active_probes = active_probes, exclude_probes = exclude_probes)
-    def define_sample(self, target_countries = ['WW'], unit_sample = 'asn', samples_per_unit = 3, active_probes = None, exclude_probes = None):
+    def define_sample(self, target_countries = ['WW'], unit_sample = 'asn', samples_per_unit = 3, active_probes = None, exclude_probes = []):
         candidate_probes = {}
         returned_sample_set = []
         
-        active_probes = self.active_probes if active_probes == None else active_probes
+        active_probes = self.active_probes or active_probes
         
         for probe_country, probe_asns in active_probes.iteritems():
             if (probe_country in target_countries) or (target_countries == ['WW'] and probe_country != 'UNKNOWN'):
@@ -50,15 +30,18 @@ class measure():
                     if not (candidate_probes.has_key(probe_asn)):
                         candidate_probes[probe_asn] = set()
                     
-                    candidate_probes[probe_asn] |= set(probes.keys())
+                    offline_probes = [probe_id for probe_id, probe_dict in probes.iteritems() if probe_dict['online'] is False]
+                    clean_list = set(probes.keys()) - set(exclude_probes) - set(offline_probes)
+                    
+                    candidate_probes[probe_asn] |= clean_list
+    
         for asn, probes in candidate_probes.iteritems():
             probes = list(probes)
             random.shuffle(probes)
             if samples_per_unit:
                 returned_sample_set += probes[:samples_per_unit]
             else:
-                returned_sample_set = probes
-        
+                returned_sample_set += probes
         return returned_sample_set
     
     def define_measurement_call(self, test, target, sample_set, defined_query = None, additional_arguments = {}):
@@ -87,7 +70,9 @@ class measure():
             
             measurement_data['probes'].append(probe_query)
         return measurement_data
+    
     def submit_ripe_request(self, measurement_data):
+        test_information_to_return = {}
         if self.api_key == None:
             definitions.logger.error("Missing API Key, Cannot Continue.")
             return False
@@ -98,4 +83,6 @@ class measure():
             definitions.logger.info("Queued Test #%i for %i Atlas Probes, waiting." % (measurement.id, probe_fragement['requested']))
             measurement_results = measurement.results(wait=True)
             definitions.logger.info("Completed Test #%i" % (measurement.id))
+            test_information_to_return[measurement.id] = probe_fragement['value']
 
+        return test_information_to_return
