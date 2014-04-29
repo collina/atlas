@@ -28,6 +28,16 @@ def extract_active_probes_number(url):
         return match.group(1)
     return None
 
+def get_asn(probe_id, active_probes = None):
+
+    probe_asn = None
+    
+    if active_probes[probe_id].has_key(u'IPv4 ASN'):
+        probe_asn = active_probes[probe_id][u'IPv4 ASN']
+    elif active_probes[probe_id].has_key(u'IPv6 ASN'):
+        probe_asn = active_probes[probe_id][u'IPv6 ASN']
+
+    return probe_asn
 
 def build_active_probes(active_probes_file = None, style = 'flat'):
     dataset_to_return = {}
@@ -46,6 +56,7 @@ def build_active_probes(active_probes_file = None, style = 'flat'):
     for probe in active_probes:
         
         probe_dict = dict([(probe[3][i], probe[3][i+1]) for i, value in enumerate(probe[3]) if i % 2 == 0])
+        probe_dict['online'] = probe_dict.has_key('Up since')
         
         for fixable_key in [u'IPv4 Prefix', u'IPv4 ASN', u'IPv6 Prefix', u'IPv6 ASN']:
             if probe_dict.has_key(fixable_key):
