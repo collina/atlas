@@ -98,6 +98,13 @@ class analyze():
         definitions.logger.info("-----------------------------------------------------------------------------------")
         return consensus_mapped
 
+    def extract_certs(self, measurements, consensus_topology = None):
+        
+        for measurement in self.measurement_list:
+            print measurement
+            if measurement['_parsed'] != None:
+                for cert in measurement['_parsed']:
+                    print cert.get_issuer()
 
 class analyze_meta:
     def __init__(self, measurements):
@@ -108,7 +115,7 @@ class analyze_meta:
                 dataset_to_return[one_measurement['prb_id']] = []
             if one_measurement.has_key('_parsed') and one_measurement['_parsed'] is not None:
                 dataset_to_return[one_measurement['prb_id']] = {'destination': None, '_parsed': None, 'serial': None}
-                dataset_to_return[one_measurement['prb_id']]['destination'] = one_measurement['dst_addr']
+                dataset_to_return[one_measurement['prb_id']]['destination'] = one_measurement['dst_addr'] if one_measurement.has_key('dst_addr') else None
                 dataset_to_return[one_measurement['prb_id']]['_parsed'] = one_measurement['_parsed']
                 dataset_to_return[one_measurement['prb_id']]['serial'] = self.translate_answers(one_measurement['_parsed'])
         self.dataset = dataset_to_return
