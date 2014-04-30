@@ -16,3 +16,5 @@ code/cartographer/api_key.txt
 *.log
 
 code/cartographer/info.log
+
+*.log

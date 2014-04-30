@@ -14989,3 +14989,1552 @@ Hypothesis for valid sslcert answers based on a mean of 1.666667 is ['769', '221
   Russian Feder  |      43826 |          0 |          0 |          0 |          1 |
 -----------------------------------------------------------------------------------
 Conducting tests over 316 probes.
+Conducting tests over 529 probes.
+Queued Test #1638973 for 499 Atlas Probes, waiting.
+Completed Test #1638973
+Queued Test #1639130 for 30 Atlas Probes, waiting.
+Completed Test #1639130
+Hypothesis for valid sslcert answers based on a mean of 1.000000 is ['303956807057322775827678989050531352699', '874967', '12662846621927529151', '13601408798098054392', '14865715451454904946', '13802490247694919238', '450809950052464736178890899987003239255531433030', '1', '0', '168082056434660252865843121494126579889', '60777292612526124058174369790765602083']
+-----------------------------------------------------------------------------------
+   Country Name  |        ASN |         In |        Out |      Error |      Empty |
+-----------------------------------------------------------------------------------
+  Russian Feder  |       8427 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      59721 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34123 |          0 |          0 |          0 |          3 |
+  Russian Feder  |      28917 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      43966 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41440 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      39792 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      16300 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42569 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41957 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      56534 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31376 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39713 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      44724 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42893 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      28968 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39264 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41145 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31514 |          0 |          0 |          0 |         10 |
+  Russian Feder  |      44030 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      24846 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      57142 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39102 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      31200 |          0 |          0 |          0 |          3 |
+  Russian Feder  |     196803 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       5387 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      60986 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      24823 |          0 |          0 |          0 |          2 |
+  Russian Feder  |     197725 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8331 |          0 |          0 |          0 |          4 |
+  Russian Feder  |       8334 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41554 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25513 |          0 |          0 |          0 |          3 |
+  Russian Feder  |      15500 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      35539 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25515 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29125 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29124 |          0 |          0 |          0 |          3 |
+  Russian Feder  |      12389 |          0 |          0 |          0 |          3 |
+  Russian Feder  |      41704 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29456 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      44843 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      28890 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      50071 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42610 |          0 |          0 |          0 |         16 |
+  Russian Feder  |      31213 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      31214 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      44265 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      35278 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      49342 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      25532 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41722 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      12714 |          8 |          0 |          0 |          3 |
+  Russian Feder  |      48936 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41976 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      50473 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      28738 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      57843 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       5567 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      15582 |          0 |          0 |          0 |          4 |
+  Russian Feder  |      43975 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42104 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41302 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      20597 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      35032 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      48478 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       9157 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     197624 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      43132 |          0 |          0 |          0 |          2 |
+  Russian Feder  |       8752 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      47764 |          0 |          0 |          0 |          2 |
+  Russian Feder  |       8359 |          0 |          0 |          0 |          4 |
+  Russian Feder  |      21453 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8580 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      50289 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      40995 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       6939 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      59561 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41733 |          0 |          0 |          0 |          3 |
+  Russian Feder  |      57588 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      13118 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39153 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      48848 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      43321 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34687 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      56341 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      13238 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41034 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      44068 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39493 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      57214 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      59406 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      28812 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      20525 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      24955 |          0 |          0 |          0 |          5 |
+  Russian Feder  |      20632 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8744 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      44417 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      20764 |          0 |          0 |          0 |          3 |
+  Russian Feder  |      31094 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      50206 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       9039 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41745 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29319 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8345 |          0 |          0 |          0 |          2 |
+  Russian Feder  |     199388 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       3216 |          0 |          0 |          0 |          5 |
+  Russian Feder  |      30784 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41854 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31323 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8615 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      34221 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     196949 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      24923 |          5 |          0 |          0 |          1 |
+  Russian Feder  |      47395 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      44257 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     199067 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29470 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      60490 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41691 |          0 |          0 |          0 |          2 |
+  Russian Feder  |     196847 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      56791 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      47373 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25381 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34232 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      24689 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34602 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      50448 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      47873 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29425 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31707 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      57079 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     198541 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      49063 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      20807 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      51515 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      44604 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      35807 |          0 |          0 |          0 |          4 |
+  Russian Feder  |      41560 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34771 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      30922 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25405 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25408 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      49120 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      62251 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34574 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      35401 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      49403 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      38964 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8402 |          0 |          0 |          0 |         29 |
+  Russian Feder  |      41601 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      50222 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      20821 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      12695 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39785 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34145 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      48679 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41599 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      15974 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      24638 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      43782 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29072 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42668 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     197467 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      15672 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8595 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      51219 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31357 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      28840 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      35815 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25478 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      47595 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      12418 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       3327 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25086 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       3226 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8997 |          0 |          0 |          0 |          4 |
+  Russian Feder  |      39709 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      35000 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31036 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      51093 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      43826 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      47914 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34892 |          0 |          0 |          0 |          1 |
+        Georgia  |      16010 |          0 |          0 |          0 |          1 |
+        Georgia  |      25249 |          0 |          0 |          0 |          1 |
+        Ukraine  |     196705 |          0 |          0 |          0 |          1 |
+        Ukraine  |      34251 |          0 |          0 |          0 |          1 |
+        Ukraine  |       8788 |          0 |          0 |          0 |          1 |
+        Ukraine  |       6876 |          0 |          0 |          0 |          2 |
+        Ukraine  |      41709 |          0 |          0 |          0 |          1 |
+        Ukraine  |     197361 |          0 |          0 |          0 |          1 |
+        Ukraine  |      21374 |          0 |          0 |          0 |          1 |
+        Ukraine  |      48756 |          0 |          0 |          0 |          1 |
+        Ukraine  |      39065 |          0 |          0 |          0 |          1 |
+        Ukraine  |      20590 |          0 |          0 |          0 |          3 |
+        Ukraine  |      15683 |          0 |          0 |          0 |          2 |
+        Ukraine  |      48957 |          0 |          0 |          0 |          2 |
+        Ukraine  |      50648 |          0 |          0 |          0 |          1 |
+        Ukraine  |      24962 |          0 |          0 |          0 |          1 |
+        Ukraine  |      13249 |          0 |          0 |          0 |          1 |
+        Ukraine  |      25299 |          0 |          0 |          0 |          1 |
+        Ukraine  |      30822 |          0 |          0 |          0 |          1 |
+        Ukraine  |      28907 |          0 |          0 |          0 |          1 |
+        Ukraine  |       6849 |          0 |          0 |          0 |          5 |
+        Ukraine  |      21261 |          0 |          0 |          0 |          1 |
+        Ukraine  |      49984 |          0 |          0 |          0 |          1 |
+        Ukraine  |      29688 |          0 |          0 |          0 |          1 |
+        Ukraine  |      41096 |          0 |          0 |          0 |          1 |
+        Ukraine  |      43668 |          0 |          0 |          0 |          1 |
+        Ukraine  |      12662 |          0 |          0 |          0 |          3 |
+        Ukraine  |      48217 |          0 |          0 |          0 |          1 |
+        Ukraine  |      43656 |          0 |          0 |          0 |          1 |
+        Ukraine  |      44750 |          0 |          0 |          0 |          1 |
+        Ukraine  |      41911 |          0 |          0 |          0 |          1 |
+        Ukraine  |      25521 |          0 |          0 |          0 |          1 |
+        Ukraine  |      15626 |          0 |          0 |          0 |          1 |
+        Ukraine  |      31272 |          0 |          0 |          0 |          2 |
+        Ukraine  |      21219 |          0 |          0 |          0 |          4 |
+        Ukraine  |       6703 |          0 |          0 |          0 |          2 |
+        Ukraine  |      29442 |          0 |          0 |          0 |          2 |
+        Ukraine  |     197145 |          0 |          0 |          0 |          1 |
+        Ukraine  |      61354 |          0 |          0 |          0 |          1 |
+        Ukraine  |      29632 |          0 |          0 |          0 |          1 |
+        Ukraine  |      31350 |          0 |          0 |          0 |          1 |
+        Ukraine  |      34248 |          0 |          0 |          0 |          1 |
+        Ukraine  |      34056 |          0 |          0 |          0 |          2 |
+        Ukraine  |      41435 |          0 |          0 |          0 |          1 |
+        Ukraine  |     197424 |          0 |          0 |          0 |          1 |
+        Ukraine  |       3261 |          0 |          0 |          0 |          1 |
+        Ukraine  |       8359 |          0 |          0 |          0 |          1 |
+        Ukraine  |      43998 |          0 |          0 |          0 |          1 |
+        Ukraine  |      12998 |          0 |          0 |          0 |          1 |
+        Ukraine  |     197159 |          0 |          0 |          0 |          1 |
+        Ukraine  |      39608 |          0 |          0 |          0 |          4 |
+        Ukraine  |      13121 |          0 |          0 |          0 |          2 |
+        Ukraine  |      12872 |          0 |          0 |          0 |          2 |
+        Ukraine  |      56347 |          0 |          0 |          0 |          1 |
+        Ukraine  |      51214 |          0 |          0 |          0 |          1 |
+        Ukraine  |      34187 |          0 |          0 |          0 |          2 |
+        Ukraine  |      13032 |          0 |          0 |          0 |          1 |
+        Ukraine  |      35680 |          0 |          0 |          0 |          1 |
+        Ukraine  |      15895 |          0 |          0 |          0 |          4 |
+        Ukraine  |      25133 |          0 |          0 |          0 |          1 |
+        Ukraine  |      35067 |          0 |          0 |          0 |          2 |
+        Ukraine  |      39728 |          0 |          0 |          0 |          2 |
+        Ukraine  |      25229 |          0 |          0 |          0 |          7 |
+        Ukraine  |      48915 |          0 |          0 |          0 |          1 |
+        Ukraine  |     196740 |          0 |          0 |          0 |          1 |
+        Ukraine  |      12963 |          0 |          0 |          0 |          2 |
+        Ukraine  |      47800 |          0 |          0 |          0 |          1 |
+        Ukraine  |      44487 |          0 |          0 |          0 |          1 |
+        Ukraine  |      45043 |          0 |          0 |          0 |          2 |
+        Ukraine  |      15772 |          0 |          0 |          0 |          2 |
+        Ukraine  |      42331 |          0 |          0 |          0 |          1 |
+        Ukraine  |      42727 |          0 |          0 |          0 |          1 |
+        Ukraine  |      15800 |          0 |          0 |          0 |          1 |
+        Ukraine  |       8779 |          0 |          0 |          0 |          2 |
+        Ukraine  |      21131 |          0 |          0 |          0 |          2 |
+        Ukraine  |      51930 |          0 |          0 |          0 |          2 |
+        Ukraine  |       6886 |          0 |          0 |          0 |          1 |
+        Ukraine  |      15497 |          0 |          0 |          0 |          1 |
+        Ukraine  |      28773 |          0 |          0 |          0 |          2 |
+        Ukraine  |      41588 |          0 |          0 |          0 |          1 |
+        Ukraine  |      43022 |          0 |          0 |          0 |          1 |
+        Ukraine  |      49125 |          0 |          0 |          0 |          1 |
+        Ukraine  |      56490 |          0 |          0 |          0 |          1 |
+        Ukraine  |      12545 |          0 |          0 |          0 |          1 |
+        Ukraine  |      34867 |          0 |          0 |          0 |          1 |
+        Ukraine  |      25082 |          0 |          0 |          0 |          1 |
+        Ukraine  |      47349 |          0 |          0 |          0 |          1 |
+        Ukraine  |      13188 |          0 |          0 |          0 |         10 |
+        Ukraine  |      31148 |          0 |          0 |          0 |          3 |
+        Ukraine  |      35816 |          0 |          0 |          0 |          1 |
+        Ukraine  |      13103 |          0 |          0 |          0 |          1 |
+        Ukraine  |      47725 |          0 |          0 |          0 |          1 |
+        Ukraine  |      49337 |          0 |          0 |          0 |          1 |
+        Ukraine  |      35714 |          0 |          0 |          0 |          1 |
+        Ukraine  |      49889 |          0 |          0 |          0 |          3 |
+        Ukraine  |      48438 |          0 |          0 |          0 |          1 |
+        Ukraine  |      34814 |          0 |          0 |          0 |          1 |
+        Ukraine  |      21151 |          0 |          0 |          0 |          2 |
+        Ukraine  |      47694 |          0 |          0 |          0 |          1 |
+        Ukraine  |      43554 |          0 |          0 |          0 |          1 |
+        Ukraine  |      31725 |          0 |          0 |          0 |          1 |
+        Ukraine  |      15377 |          0 |          0 |          0 |          4 |
+        Ukraine  |      29067 |          0 |          0 |          0 |          1 |
+        Ukraine  |      24725 |          0 |          0 |          0 |          1 |
+-----------------------------------------------------------------------------------
+Conducting tests over 391 probes.
+Queued Test #1639211 for 391 Atlas Probes, waiting.
+Completed Test #1639211
+Hypothesis for valid dns answers based on a mean of 1.166667 is ['23.253.134.190']
+-----------------------------------------------------------------------------------
+   Country Name  |        ASN |         In |        Out |      Error |      Empty |
+-----------------------------------------------------------------------------------
+  Russian Feder  |      41727 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12668 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12714 |          1 |          8 |          0 |          0 |
+  Russian Feder  |      24923 |          0 |          7 |          0 |          0 |
+  Russian Feder  |      52207 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      42420 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      42116 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      41733 |          1 |          2 |          0 |          0 |
+  Russian Feder  |      39493 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      21353 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      41854 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      41691 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      12768 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      51523 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      39435 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      41843 |          0 |          1 |          0 |          0 |
+  Russian Feder  |     198541 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      25405 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      34533 |          0 |          3 |          0 |          0 |
+  Russian Feder  |      50543 |          0 |          1 |          0 |          0 |
+-----------------------------------------------------------------------------------
+Hypothesis for valid dns answers based on a mean of 1.166667 is ['23.253.134.190']
+-----------------------------------------------------------------------------------
+   Country Name  |        ASN |         In |        Out |      Error |      Empty |
+-----------------------------------------------------------------------------------
+  Russian Feder  |      41727 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12668 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12714 |          1 |          8 |          0 |          0 |
+  Russian Feder  |      24923 |          0 |          7 |          0 |          0 |
+  Russian Feder  |      52207 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      42420 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      42116 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      41733 |          1 |          2 |          0 |          0 |
+  Russian Feder  |      39493 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      21353 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      41854 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      41691 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      12768 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      51523 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      39435 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      41843 |          0 |          1 |          0 |          0 |
+  Russian Feder  |     198541 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      25405 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      34533 |          0 |          3 |          0 |          0 |
+  Russian Feder  |      50543 |          0 |          1 |          0 |          0 |
+-----------------------------------------------------------------------------------
+Hypothesis for valid dns answers based on a mean of 1.166667 is ['23.253.134.190']
+-----------------------------------------------------------------------------------
+   Country Name  |        ASN |         In |        Out |      Error |      Empty |
+-----------------------------------------------------------------------------------
+  Russian Feder  |      41727 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12668 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12714 |          1 |          8 |          0 |          0 |
+  Russian Feder  |      24923 |          0 |          7 |          0 |          0 |
+  Russian Feder  |      52207 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      42420 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      42116 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      41733 |          1 |          2 |          0 |          0 |
+  Russian Feder  |      39493 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      21353 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      41854 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      41691 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      12768 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      51523 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      39435 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      41843 |          0 |          1 |          0 |          0 |
+  Russian Feder  |     198541 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      25405 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      34533 |          0 |          3 |          0 |          0 |
+  Russian Feder  |      50543 |          0 |          1 |          0 |          0 |
+-----------------------------------------------------------------------------------
+Hypothesis for valid sslcert answers based on a mean of 1.666667 is ['769', '22109388386144538', '0']
+-----------------------------------------------------------------------------------
+   Country Name  |        ASN |         In |        Out |      Error |      Empty |
+-----------------------------------------------------------------------------------
+  Russian Feder  |       5467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43966 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42569 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      43975 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44724 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      39264 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      24846 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      57142 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      15500 |          0 |          3 |          0 |          0 |
+  Russian Feder  |     196803 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42289 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8334 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29425 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12389 |          0 |          3 |          0 |          0 |
+  Russian Feder  |      29456 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44843 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31094 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44265 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       9157 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12714 |         11 |          0 |          0 |          1 |
+  Russian Feder  |      41302 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47270 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48478 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      48679 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      28890 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      48670 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      13118 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48848 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      34221 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39493 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      20525 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      28812 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      50206 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29319 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      30784 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41854 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31323 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      59561 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8615 |          0 |          2 |          0 |          0 |
+  Russian Feder  |     196949 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47395 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      41440 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      34232 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39153 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      51523 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34602 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      50448 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8595 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31707 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     198541 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      49403 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34771 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25405 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8997 |          1 |          3 |          0 |          0 |
+  Russian Feder  |      34574 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      56341 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12695 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41599 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     197467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43132 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      47595 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      16300 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43826 |          0 |          0 |          0 |          1 |
+        Ukraine  |      44750 |          0 |          0 |          0 |          1 |
+-----------------------------------------------------------------------------------
+Hypothesis for valid sslcert answers based on a mean of 1.666667 is ['769', '22109388386144538', '0']
+-----------------------------------------------------------------------------------
+   Country Name  |        ASN |         In |        Out |      Error |      Empty |
+-----------------------------------------------------------------------------------
+  Russian Feder  |       5467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43966 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42569 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      43975 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44724 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      39264 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      24846 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      57142 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      15500 |          0 |          3 |          0 |          0 |
+  Russian Feder  |     196803 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42289 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8334 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29425 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12389 |          0 |          3 |          0 |          0 |
+  Russian Feder  |      29456 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44843 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31094 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44265 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       9157 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12714 |         11 |          0 |          0 |          1 |
+  Russian Feder  |      41302 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47270 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48478 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      48679 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      28890 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      48670 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      13118 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48848 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      34221 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39493 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      20525 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      28812 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      50206 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29319 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      30784 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41854 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31323 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      59561 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8615 |          0 |          2 |          0 |          0 |
+  Russian Feder  |     196949 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47395 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      41440 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      34232 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39153 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      51523 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34602 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      50448 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8595 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31707 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     198541 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      49403 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34771 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25405 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8997 |          1 |          3 |          0 |          0 |
+  Russian Feder  |      34574 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      56341 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12695 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41599 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     197467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43132 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      47595 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      16300 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43826 |          0 |          0 |          0 |          1 |
+        Ukraine  |      44750 |          0 |          0 |          0 |          1 |
+-----------------------------------------------------------------------------------
+Hypothesis for valid sslcert answers based on a mean of 1.666667 is ['769', '22109388386144538', '0']
+-----------------------------------------------------------------------------------
+   Country Name  |        ASN |         In |        Out |      Error |      Empty |
+-----------------------------------------------------------------------------------
+  Russian Feder  |       5467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43966 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42569 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      43975 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44724 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      39264 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      24846 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      57142 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      15500 |          0 |          3 |          0 |          0 |
+  Russian Feder  |     196803 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42289 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8334 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29425 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12389 |          0 |          3 |          0 |          0 |
+  Russian Feder  |      29456 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44843 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31094 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44265 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       9157 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12714 |         11 |          0 |          0 |          1 |
+  Russian Feder  |      41302 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47270 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48478 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      48679 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      28890 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      48670 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      13118 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48848 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      34221 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39493 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      20525 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      28812 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      50206 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29319 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      30784 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41854 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31323 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      59561 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8615 |          0 |          2 |          0 |          0 |
+  Russian Feder  |     196949 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47395 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      41440 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      34232 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39153 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      51523 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34602 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      50448 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8595 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31707 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     198541 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      49403 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34771 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25405 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8997 |          1 |          3 |          0 |          0 |
+  Russian Feder  |      34574 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      56341 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12695 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41599 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     197467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43132 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      47595 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      16300 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43826 |          0 |          0 |          0 |          1 |
+        Ukraine  |      44750 |          0 |          0 |          0 |          1 |
+-----------------------------------------------------------------------------------
+Hypothesis for valid sslcert answers based on a mean of 1.666667 is ['769', '22109388386144538', '0']
+-----------------------------------------------------------------------------------
+   Country Name  |        ASN |         In |        Out |      Error |      Empty |
+-----------------------------------------------------------------------------------
+  Russian Feder  |       5467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43966 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42569 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      43975 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44724 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      39264 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      24846 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      57142 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      15500 |          0 |          3 |          0 |          0 |
+  Russian Feder  |     196803 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42289 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8334 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29425 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12389 |          0 |          3 |          0 |          0 |
+  Russian Feder  |      29456 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44843 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31094 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44265 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       9157 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12714 |         11 |          0 |          0 |          1 |
+  Russian Feder  |      41302 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47270 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48478 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      48679 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      28890 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      48670 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      13118 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48848 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      34221 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39493 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      20525 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      28812 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      50206 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29319 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      30784 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41854 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31323 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      59561 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8615 |          0 |          2 |          0 |          0 |
+  Russian Feder  |     196949 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47395 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      41440 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      34232 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39153 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      51523 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34602 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      50448 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8595 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31707 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     198541 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      49403 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34771 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25405 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8997 |          1 |          3 |          0 |          0 |
+  Russian Feder  |      34574 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      56341 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12695 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41599 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     197467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43132 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      47595 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      16300 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43826 |          0 |          0 |          0 |          1 |
+        Ukraine  |      44750 |          0 |          0 |          0 |          1 |
+-----------------------------------------------------------------------------------
+Hypothesis for valid sslcert answers based on a mean of 1.666667 is ['769', '22109388386144538', '0']
+-----------------------------------------------------------------------------------
+   Country Name  |        ASN |         In |        Out |      Error |      Empty |
+-----------------------------------------------------------------------------------
+  Russian Feder  |       5467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43966 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42569 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      43975 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44724 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      39264 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      24846 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      57142 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      15500 |          0 |          3 |          0 |          0 |
+  Russian Feder  |     196803 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42289 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8334 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29425 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12389 |          0 |          3 |          0 |          0 |
+  Russian Feder  |      29456 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44843 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31094 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44265 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       9157 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12714 |         11 |          0 |          0 |          1 |
+  Russian Feder  |      41302 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47270 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48478 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      48679 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      28890 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      48670 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      13118 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48848 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      34221 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39493 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      20525 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      28812 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      50206 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29319 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      30784 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41854 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31323 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      59561 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8615 |          0 |          2 |          0 |          0 |
+  Russian Feder  |     196949 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47395 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      41440 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      34232 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39153 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      51523 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34602 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      50448 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8595 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31707 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     198541 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      49403 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34771 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25405 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8997 |          1 |          3 |          0 |          0 |
+  Russian Feder  |      34574 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      56341 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12695 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41599 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     197467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43132 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      47595 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      16300 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43826 |          0 |          0 |          0 |          1 |
+        Ukraine  |      44750 |          0 |          0 |          0 |          1 |
+-----------------------------------------------------------------------------------
+Hypothesis for valid sslcert answers based on a mean of 1.666667 is ['769', '22109388386144538', '0']
+-----------------------------------------------------------------------------------
+   Country Name  |        ASN |         In |        Out |      Error |      Empty |
+-----------------------------------------------------------------------------------
+  Russian Feder  |       5467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43966 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42569 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      43975 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44724 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      39264 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      24846 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      57142 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      15500 |          0 |          3 |          0 |          0 |
+  Russian Feder  |     196803 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42289 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8334 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29425 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12389 |          0 |          3 |          0 |          0 |
+  Russian Feder  |      29456 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44843 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31094 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44265 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       9157 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12714 |         11 |          0 |          0 |          1 |
+  Russian Feder  |      41302 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47270 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48478 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      48679 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      28890 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      48670 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      13118 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48848 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      34221 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39493 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      20525 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      28812 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      50206 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29319 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      30784 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41854 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31323 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      59561 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8615 |          0 |          2 |          0 |          0 |
+  Russian Feder  |     196949 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47395 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      41440 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      34232 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39153 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      51523 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34602 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      50448 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8595 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31707 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     198541 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      49403 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34771 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25405 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8997 |          1 |          3 |          0 |          0 |
+  Russian Feder  |      34574 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      56341 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12695 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41599 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     197467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43132 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      47595 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      16300 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43826 |          0 |          0 |          0 |          1 |
+        Ukraine  |      44750 |          0 |          0 |          0 |          1 |
+-----------------------------------------------------------------------------------
+Hypothesis for valid sslcert answers based on a mean of 1.666667 is ['769', '22109388386144538', '0']
+-----------------------------------------------------------------------------------
+   Country Name  |        ASN |         In |        Out |      Error |      Empty |
+-----------------------------------------------------------------------------------
+  Russian Feder  |       5467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43966 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42569 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      43975 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44724 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      39264 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      24846 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      57142 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      15500 |          0 |          3 |          0 |          0 |
+  Russian Feder  |     196803 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42289 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8334 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29425 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12389 |          0 |          3 |          0 |          0 |
+  Russian Feder  |      29456 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44843 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31094 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44265 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       9157 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12714 |         11 |          0 |          0 |          1 |
+  Russian Feder  |      41302 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47270 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48478 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      48679 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      28890 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      48670 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      13118 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48848 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      34221 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39493 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      20525 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      28812 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      50206 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29319 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      30784 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41854 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31323 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      59561 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8615 |          0 |          2 |          0 |          0 |
+  Russian Feder  |     196949 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47395 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      41440 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      34232 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39153 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      51523 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34602 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      50448 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8595 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31707 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     198541 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      49403 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34771 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25405 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8997 |          1 |          3 |          0 |          0 |
+  Russian Feder  |      34574 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      56341 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12695 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41599 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     197467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43132 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      47595 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      16300 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43826 |          0 |          0 |          0 |          1 |
+        Ukraine  |      44750 |          0 |          0 |          0 |          1 |
+-----------------------------------------------------------------------------------
+Hypothesis for valid sslcert answers based on a mean of 1.666667 is ['769', '22109388386144538', '0']
+-----------------------------------------------------------------------------------
+   Country Name  |        ASN |         In |        Out |      Error |      Empty |
+-----------------------------------------------------------------------------------
+  Russian Feder  |       5467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43966 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42569 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      43975 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44724 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      39264 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      24846 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      57142 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      15500 |          0 |          3 |          0 |          0 |
+  Russian Feder  |     196803 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42289 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8334 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29425 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12389 |          0 |          3 |          0 |          0 |
+  Russian Feder  |      29456 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44843 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31094 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44265 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       9157 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12714 |         11 |          0 |          0 |          1 |
+  Russian Feder  |      41302 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47270 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48478 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      48679 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      28890 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      48670 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      13118 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48848 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      34221 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39493 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      20525 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      28812 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      50206 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29319 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      30784 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41854 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31323 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      59561 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8615 |          0 |          2 |          0 |          0 |
+  Russian Feder  |     196949 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47395 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      41440 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      34232 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39153 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      51523 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34602 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      50448 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8595 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31707 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     198541 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      49403 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34771 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25405 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8997 |          1 |          3 |          0 |          0 |
+  Russian Feder  |      34574 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      56341 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12695 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41599 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     197467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43132 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      47595 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      16300 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43826 |          0 |          0 |          0 |          1 |
+        Ukraine  |      44750 |          0 |          0 |          0 |          1 |
+-----------------------------------------------------------------------------------
+Hypothesis for valid sslcert answers based on a mean of 1.666667 is ['769', '22109388386144538', '0']
+-----------------------------------------------------------------------------------
+   Country Name  |        ASN |         In |        Out |      Error |      Empty |
+-----------------------------------------------------------------------------------
+  Russian Feder  |       5467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43966 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42569 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      43975 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44724 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      39264 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      24846 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      57142 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      15500 |          0 |          3 |          0 |          0 |
+  Russian Feder  |     196803 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42289 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8334 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29425 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12389 |          0 |          3 |          0 |          0 |
+  Russian Feder  |      29456 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44843 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31094 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44265 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       9157 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12714 |         11 |          0 |          0 |          1 |
+  Russian Feder  |      41302 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47270 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48478 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      48679 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      28890 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      48670 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      13118 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48848 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      34221 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39493 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      20525 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      28812 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      50206 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29319 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      30784 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41854 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31323 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      59561 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8615 |          0 |          2 |          0 |          0 |
+  Russian Feder  |     196949 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47395 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      41440 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      34232 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39153 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      51523 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34602 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      50448 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8595 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31707 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     198541 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      49403 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34771 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25405 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8997 |          1 |          3 |          0 |          0 |
+  Russian Feder  |      34574 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      56341 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12695 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41599 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     197467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43132 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      47595 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      16300 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43826 |          0 |          0 |          0 |          1 |
+        Ukraine  |      44750 |          0 |          0 |          0 |          1 |
+-----------------------------------------------------------------------------------
+Hypothesis for valid sslcert answers based on a mean of 1.666667 is ['769', '22109388386144538', '0']
+-----------------------------------------------------------------------------------
+   Country Name  |        ASN |         In |        Out |      Error |      Empty |
+-----------------------------------------------------------------------------------
+  Russian Feder  |       5467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43966 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42569 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      43975 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44724 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      39264 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      24846 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      57142 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      15500 |          0 |          3 |          0 |          0 |
+  Russian Feder  |     196803 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42289 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8334 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29425 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12389 |          0 |          3 |          0 |          0 |
+  Russian Feder  |      29456 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44843 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31094 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44265 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       9157 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12714 |         11 |          0 |          0 |          1 |
+  Russian Feder  |      41302 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47270 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48478 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      48679 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      28890 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      48670 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      13118 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48848 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      34221 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39493 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      20525 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      28812 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      50206 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29319 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      30784 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41854 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31323 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      59561 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8615 |          0 |          2 |          0 |          0 |
+  Russian Feder  |     196949 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47395 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      41440 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      34232 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39153 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      51523 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34602 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      50448 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8595 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31707 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     198541 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      49403 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34771 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25405 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8997 |          1 |          3 |          0 |          0 |
+  Russian Feder  |      34574 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      56341 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12695 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41599 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     197467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43132 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      47595 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      16300 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43826 |          0 |          0 |          0 |          1 |
+        Ukraine  |      44750 |          0 |          0 |          0 |          1 |
+-----------------------------------------------------------------------------------
+Hypothesis for valid sslcert answers based on a mean of 1.666667 is ['769', '22109388386144538', '0']
+-----------------------------------------------------------------------------------
+   Country Name  |        ASN |         In |        Out |      Error |      Empty |
+-----------------------------------------------------------------------------------
+  Russian Feder  |       5467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43966 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42569 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      43975 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44724 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      39264 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      24846 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      57142 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      15500 |          0 |          3 |          0 |          0 |
+  Russian Feder  |     196803 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42289 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8334 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29425 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12389 |          0 |          3 |          0 |          0 |
+  Russian Feder  |      29456 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44843 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31094 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44265 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       9157 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12714 |         11 |          0 |          0 |          1 |
+  Russian Feder  |      41302 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47270 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48478 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      48679 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      28890 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      48670 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      13118 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48848 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      34221 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39493 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      20525 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      28812 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      50206 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29319 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      30784 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41854 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31323 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      59561 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8615 |          0 |          2 |          0 |          0 |
+  Russian Feder  |     196949 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47395 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      41440 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      34232 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39153 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      51523 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34602 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      50448 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8595 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31707 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     198541 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      49403 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34771 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25405 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8997 |          1 |          3 |          0 |          0 |
+  Russian Feder  |      34574 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      56341 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12695 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41599 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     197467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43132 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      47595 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      16300 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43826 |          0 |          0 |          0 |          1 |
+        Ukraine  |      44750 |          0 |          0 |          0 |          1 |
+-----------------------------------------------------------------------------------
+Hypothesis for valid sslcert answers based on a mean of 1.666667 is ['769', '22109388386144538', '0']
+-----------------------------------------------------------------------------------
+   Country Name  |        ASN |         In |        Out |      Error |      Empty |
+-----------------------------------------------------------------------------------
+  Russian Feder  |       5467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43966 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42569 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      43975 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44724 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      39264 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      24846 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      57142 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      15500 |          0 |          3 |          0 |          0 |
+  Russian Feder  |     196803 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42289 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8334 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29425 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12389 |          0 |          3 |          0 |          0 |
+  Russian Feder  |      29456 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44843 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31094 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44265 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       9157 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12714 |         11 |          0 |          0 |          1 |
+  Russian Feder  |      41302 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47270 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48478 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      48679 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      28890 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      48670 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      13118 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48848 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      34221 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39493 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      20525 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      28812 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      50206 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29319 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      30784 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41854 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31323 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      59561 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8615 |          0 |          2 |          0 |          0 |
+  Russian Feder  |     196949 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47395 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      41440 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      34232 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39153 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      51523 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34602 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      50448 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8595 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31707 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     198541 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      49403 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34771 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25405 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8997 |          1 |          3 |          0 |          0 |
+  Russian Feder  |      34574 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      56341 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12695 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41599 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     197467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43132 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      47595 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      16300 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43826 |          0 |          0 |          0 |          1 |
+        Ukraine  |      44750 |          0 |          0 |          0 |          1 |
+-----------------------------------------------------------------------------------
+Hypothesis for valid sslcert answers based on a mean of 1.666667 is ['769', '22109388386144538', '0']
+-----------------------------------------------------------------------------------
+   Country Name  |        ASN |         In |        Out |      Error |      Empty |
+-----------------------------------------------------------------------------------
+  Russian Feder  |       5467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43966 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42569 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      43975 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44724 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      39264 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      24846 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      57142 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      15500 |          0 |          3 |          0 |          0 |
+  Russian Feder  |     196803 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42289 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8334 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29425 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12389 |          0 |          3 |          0 |          0 |
+  Russian Feder  |      29456 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44843 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31094 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44265 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       9157 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12714 |         11 |          0 |          0 |          1 |
+  Russian Feder  |      41302 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47270 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48478 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      48679 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      28890 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      48670 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      13118 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48848 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      34221 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39493 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      20525 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      28812 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      50206 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29319 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      30784 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41854 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31323 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      59561 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8615 |          0 |          2 |          0 |          0 |
+  Russian Feder  |     196949 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47395 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      41440 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      34232 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39153 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      51523 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34602 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      50448 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8595 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31707 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     198541 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      49403 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34771 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25405 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8997 |          1 |          3 |          0 |          0 |
+  Russian Feder  |      34574 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      56341 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12695 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41599 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     197467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43132 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      47595 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      16300 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43826 |          0 |          0 |          0 |          1 |
+        Ukraine  |      44750 |          0 |          0 |          0 |          1 |
+-----------------------------------------------------------------------------------
+Hypothesis for valid sslcert answers based on a mean of 1.666667 is ['769', '22109388386144538', '0']
+-----------------------------------------------------------------------------------
+   Country Name  |        ASN |         In |        Out |      Error |      Empty |
+-----------------------------------------------------------------------------------
+  Russian Feder  |       5467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43966 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42569 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      43975 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44724 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      39264 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      24846 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      57142 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      15500 |          0 |          3 |          0 |          0 |
+  Russian Feder  |     196803 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42289 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8334 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29425 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12389 |          0 |          3 |          0 |          0 |
+  Russian Feder  |      29456 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44843 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31094 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44265 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       9157 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12714 |         11 |          0 |          0 |          1 |
+  Russian Feder  |      41302 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47270 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48478 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      48679 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      28890 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      48670 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      13118 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48848 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      34221 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39493 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      20525 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      28812 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      50206 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29319 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      30784 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41854 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31323 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      59561 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8615 |          0 |          2 |          0 |          0 |
+  Russian Feder  |     196949 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47395 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      41440 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      34232 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39153 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      51523 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34602 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      50448 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8595 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31707 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     198541 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      49403 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34771 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25405 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8997 |          1 |          3 |          0 |          0 |
+  Russian Feder  |      34574 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      56341 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12695 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41599 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     197467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43132 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      47595 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      16300 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43826 |          0 |          0 |          0 |          1 |
+        Ukraine  |      44750 |          0 |          0 |          0 |          1 |
+-----------------------------------------------------------------------------------
+Hypothesis for valid sslcert answers based on a mean of 1.666667 is ['769', '22109388386144538', '0']
+-----------------------------------------------------------------------------------
+   Country Name  |        ASN |         In |        Out |      Error |      Empty |
+-----------------------------------------------------------------------------------
+  Russian Feder  |       5467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43966 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42569 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      43975 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44724 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      39264 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      24846 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      57142 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      15500 |          0 |          3 |          0 |          0 |
+  Russian Feder  |     196803 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42289 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8334 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29425 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12389 |          0 |          3 |          0 |          0 |
+  Russian Feder  |      29456 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44843 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31094 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44265 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       9157 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12714 |         11 |          0 |          0 |          1 |
+  Russian Feder  |      41302 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47270 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48478 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      48679 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      28890 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      48670 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      13118 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48848 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      34221 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39493 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      20525 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      28812 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      50206 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29319 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      30784 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41854 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31323 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      59561 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8615 |          0 |          2 |          0 |          0 |
+  Russian Feder  |     196949 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47395 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      41440 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      34232 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39153 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      51523 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34602 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      50448 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8595 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31707 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     198541 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      49403 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34771 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25405 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8997 |          1 |          3 |          0 |          0 |
+  Russian Feder  |      34574 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      56341 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12695 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41599 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     197467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43132 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      47595 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      16300 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43826 |          0 |          0 |          0 |          1 |
+        Ukraine  |      44750 |          0 |          0 |          0 |          1 |
+-----------------------------------------------------------------------------------
+Hypothesis for valid sslcert answers based on a mean of 1.666667 is ['769', '22109388386144538', '0']
+-----------------------------------------------------------------------------------
+   Country Name  |        ASN |         In |        Out |      Error |      Empty |
+-----------------------------------------------------------------------------------
+  Russian Feder  |       5467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43966 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42569 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      43975 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44724 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      39264 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      24846 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      57142 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      15500 |          0 |          3 |          0 |          0 |
+  Russian Feder  |     196803 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42289 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8334 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29425 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12389 |          0 |          3 |          0 |          0 |
+  Russian Feder  |      29456 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44843 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31094 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44265 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       9157 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12714 |         11 |          0 |          0 |          1 |
+  Russian Feder  |      41302 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47270 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48478 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      48679 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      28890 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      48670 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      13118 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48848 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      34221 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39493 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      20525 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      28812 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      50206 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29319 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      30784 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41854 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31323 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      59561 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8615 |          0 |          2 |          0 |          0 |
+  Russian Feder  |     196949 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47395 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      41440 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      34232 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39153 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      51523 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34602 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      50448 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8595 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31707 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     198541 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      49403 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34771 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25405 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8997 |          1 |          3 |          0 |          0 |
+  Russian Feder  |      34574 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      56341 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12695 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41599 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     197467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43132 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      47595 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      16300 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43826 |          0 |          0 |          0 |          1 |
+        Ukraine  |      44750 |          0 |          0 |          0 |          1 |
+-----------------------------------------------------------------------------------
+Hypothesis for valid sslcert answers based on a mean of 1.666667 is ['769', '22109388386144538', '0']
+-----------------------------------------------------------------------------------
+   Country Name  |        ASN |         In |        Out |      Error |      Empty |
+-----------------------------------------------------------------------------------
+  Russian Feder  |       5467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43966 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42569 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      43975 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44724 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      39264 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      24846 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      57142 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      15500 |          0 |          3 |          0 |          0 |
+  Russian Feder  |     196803 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      42289 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8334 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29425 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12389 |          0 |          3 |          0 |          0 |
+  Russian Feder  |      29456 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44843 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31094 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      44265 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       9157 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12714 |         11 |          0 |          0 |          1 |
+  Russian Feder  |      41302 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47270 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48478 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      48679 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      28890 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      48670 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      13118 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      48848 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      34221 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39493 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      20525 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      28812 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      50206 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      29319 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      30784 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41854 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31323 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      59561 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8615 |          0 |          2 |          0 |          0 |
+  Russian Feder  |     196949 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      47395 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      41440 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      34232 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      39153 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      51523 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34602 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      50448 |          0 |          0 |          0 |          1 |
+  Russian Feder  |       8595 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      31707 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     198541 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      49403 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      34771 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      25405 |          0 |          1 |          0 |          0 |
+  Russian Feder  |       8997 |          1 |          3 |          0 |          0 |
+  Russian Feder  |      34574 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      56341 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      12695 |          0 |          0 |          0 |          1 |
+  Russian Feder  |      41599 |          0 |          0 |          0 |          1 |
+  Russian Feder  |     197467 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43132 |          0 |          0 |          0 |          2 |
+  Russian Feder  |      47595 |          0 |          2 |          0 |          0 |
+  Russian Feder  |      16300 |          0 |          1 |          0 |          0 |
+  Russian Feder  |      43826 |          0 |          0 |          0 |          1 |
+        Ukraine  |      44750 |          0 |          0 |          0 |          1 |
+-----------------------------------------------------------------------------------
