@@ -52,5 +52,37 @@ ssl connection fails however
 Navalny Hijack
 ----------------------
 
-drugoi-nnover.livejournal.com	
+On March 13, 2014, Russian's Federal Service for Supervision in the Sphere of Telecom, Information Technologies and Mass Communications (Roskomnadzor) announced the blacklisting of opposition figure Alexei Navalny's LiveJournal blog, due to his violation of the terms of his house arrest. Shortly after the order, Russian social media and state news agencies reported that access to the enitirity of LiveJournal had been temporarily restricted on some ISPs due to their inability to distinguish traffic to different blogs [1, 2]. When the regional ISP Netis Telekom had previously blocked access to all LiveJournal blogs, while attempting to comply with a court order against a neo-nazi blog, the platform's Russian Director Ilya Dronov attributed the overblocking to the ISP's reliance on IP-based filtering and the inclusion of IP addresses within court orders[2]. Similar to Turkey's filtering apparatus, Russia's content restrictions are primarily reliant on DNS poisoning and IP filtering [3, 4], presenting the same potential weaknesses and circumvention strategies.
+
+[1] http://www.russiaslam.com/2014/stories/censors-block-access-to-livejournal-because-of-navalnys-blog.html
+[2] http://en.itar-tass.com/russia/723571
+[3] http://www.leta.ru/press-center/news-ib/news-ib_894.html
+
+
+Concurrently, four opposition news portals were blocked due to based on the allegations that they called for ``illegal activity and participation in mass events that are conducted contrary to the established order,'' including grani.ru. Only two probes known to domestic domain name services received valid DNS replies, the remainder XX spanning XX ASNs received false answers that included ten unique addresses, including two addressesin with RFC1918, private network address space (10.52.34.222 and 192.168.103.162). In contrast to grani.ru, navalny.livejournal.com recieved the consistent and valid reply of 208.93.0.190 across all providers. However, while the returned A record of 208.93.0.190 falls within an address prefix 208.93.0.0/22 owned by Live Journal Inc., this responses differs from the type response for hosted blogs of 208.93.0.150. Both addresses appear to front servers for the LiveJournal platform as they return the same SSL Certificate and host the same content. Requests to 208.93.0.150 with a HTTP Host header set to navalny.livejournal.com retrieves the correct content and non-blacklisted content is retrievable through
+
+Based on timing, publicly-available history, available domain names records, and Atlas network measurements, it appears that a host was specially established to faciliate Russian censorship of the LiveJournal platform, potentially based on interest by the service to mitigate further overblocking of the platform. As of April 2013, only five subdomains of livejournal.com could be found whose DNS A records resolved to the address 208.93.0.190 (hence labeled as Alternative-Front -- OR SOMETHING), Figure \cite{lj-blocked-blogs}. All the blogs found have been publicly cited as having been found to violate Russia's media laws for promotion of political activities or extremism, and two are listed within publicly available filter site lists [7]. Within the 1462 Live Journal addresses with Alexa's Top 1 million list, 1450 blogs reolved to the 208.93.0.150 (Main-Front), another four of those addresses being amongst the five previously identified. Using HTTPS Ecosystem Scans as a metric of accessibility[5], the frontend available on 208.93.0.190 came online between February 10 and February 17, with the address otherwise unused until then. On April 11, 2014 the LiveJournal site of Ukrainian blogger `Pauluskp' (pauluskp.livejournal.com), which had covered Russian involvement in Crimea, was filtered with the administrative order listing an IP Address of 208.93.0.190, however, as recently as April 5th, the blog was recorded as pointing to the Main-Front. Similarly, the movement of Navalny's blog was noticed within social media [6] In the lead to filtering orders, it appears that LiveJournal coordinates with authorities and alters the DNS A record for blogs designated by Roskomnadzor in order to faciliate ISP implementation of government restrictions [6].
+
+While blog content is not accessible over HTTPS, LiveJournal hosts appear to offer SSL services for presumably e a limited purpose of securing user credentials. As of April 28, only 12 of 90 probes within Russia were able to establish a successful SSL connection to Navalny's blog, a further 38 returned errors potentially indicative of port blocking. The plurality, 40 probes on 29 ASNs, returned SSL certificates with common name or locations fields attributed to Russian ISPs, indicating that an entity in transit had intercepted or redirected the traffic out of its normal path. This approach is different from the normal man-in-the-middle approach seen in countries such as Iran and Syria. Additionally it is not limited to protocol, although the end host appears to be only responsive to TCP requests, and is narrowly tailored to only the address associated with the Alternative-Front. Adjacent addresses and others destinations, such as the normal frontend, within the same prefix appear to traverse a valid international path.
+
+
+\begin{table}[h!]
+    \label{lj-blocked-blogs}
+    \begin{tabular}{| c |}
+        URL\\
+        drugoi-nnover.livejournal.com \\
+        imperialcommiss.livejournal.com \\
+        m-athanasios.livejournal.com \\
+        navalny.livejournal.com \\
+        pauluskp.livejournal.com \\
+    \end{tabular}
+\end{table}
+
+
+[3] http://rkn.gov.ru/docs/Analysys_and_recommendations_comments_fin.pdf
+[4] https://www.usenix.org/sites/default/files/conference/protected-files/verkamp_foci12_slides.pdf
+[5] Project Sonar: IPv4 SSL Certificates
+[6] http://board.rt.mipt.ru/?read=8820778
+
+
 

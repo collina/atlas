@@ -121,6 +121,9 @@ def main(args):
             libatlas.logger.error('Retesting not yet supported for local results')
 
         action_class.display_consensus(consensus_topology)
+        
+        if action_class.data_type == 'sslcert':
+            action_class.extract_certs(action_class.measurement_list)
     
     elif args.action == 'measure':
         
