@@ -18,3 +18,11 @@ code/cartographer/api_key.txt
 code/cartographer/info.log
 
 *.log
+
+*.dat
+
+*.log
+
+*.log
+
+*.pyc
