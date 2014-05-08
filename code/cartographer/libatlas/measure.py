@@ -10,7 +10,8 @@ class measure():
         self.max_probes_per_measurement = max_probes_per_measurement
         self.query_structure_measurement = {
                     'dns' : {'type': 'dns', 'af': 4, 'is_oneoff': 'true', 'is_public': 'true', 'use_probe_resolver': 'true', 'recursion_desired': 'true', 'query_class': 'IN', 'query_type': 'A', 'query_argument': None},
-                    'sslcert' : {'type': 'sslcert', 'af': 4, 'is_oneoff': 'true', 'is_public': 'true', 'resolve_on_probe': 'true', 'target': None, 'port': None}
+                    'sslcert' : {'type': 'sslcert', 'af': 4, 'is_oneoff': 'true', 'is_public': 'true', 'resolve_on_probe': 'true', 'target': None, 'port': None},
+                    'traceroute' : {'type': 'traceroute', 'af': 4, 'is_oneoff': 'true', 'is_public': 'true', 'resolve_on_probe': 'true', 'target': None, 'protocol': 'ICMP', 'port': None},
                 }
         self.query_structure_probes = {'requested': None, 'type': 'probes', 'value': None}
         self.active_probes = libatlas.build_active_probes(active_probes_file = active_probes, style = 'cc_asn')
@@ -58,7 +59,10 @@ class measure():
             elif test == 'sslcert':
                 defined_query['target'] = target.lower()
                 defined_query['port'] = str(additional_arguments['port']) if additional_arguments.has_key('port') else str(443)
-        
+            elif test == 'traceroute':
+                defined_query['target'] = target.lower()
+                defined_query['port'] = str(additional_arguments['port']) if additional_arguments.has_key('port') else str(80)
+    
         defined_query['description'] = json.dumps(defined_query)
         measurement_data['definitions'].append(defined_query)
         

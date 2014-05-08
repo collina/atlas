@@ -91,20 +91,17 @@ class analyze():
         definitions.logger.info("-----------------------------------------------------------------------------------")
         
         for country, country_results in consensus_mapped.iteritems():
-            # definitions.logger.info("%15.13s %12s %12s %12s %12s %12s |" % (definitions.country_list[country], '', '', '', '', ''))
+        
+            cc_in = sum([len(asn_results['in']) for asn_results in country_results.values()])
+            cc_out = sum([len(asn_results['out']) for asn_results in country_results.values()])
+            cc_error = sum([len(asn_results['error']) for asn_results in country_results.values()])
+            cc_empty = sum([len(asn_results['empty']) for asn_results in country_results.values()])
+            definitions.logger.info("%15.13s  | %10s | %10i | %10i | %10i | %10i |" % (definitions.country_list[country], len(country_results.keys()), cc_in, cc_out, cc_error, cc_empty))
             for asn, asn_results in country_results.iteritems():
                 if len(asn_results['out']) > 0 or len(asn_results['empty']) > 0 or len(asn_results['error']) > 0:
                     definitions.logger.info("%15.13s  | %10s | %10i | %10i | %10i | %10i |" % (definitions.country_list[country].decode('utf-8'), asn, len(asn_results['in']), len(asn_results['out']), len(asn_results['error']), len(asn_results['empty'])))
         definitions.logger.info("-----------------------------------------------------------------------------------")
         return consensus_mapped
-
-    def extract_certs(self, measurements, consensus_topology = None):
-        
-        for measurement in self.measurement_list:
-            print measurement
-            if measurement['_parsed'] != None:
-                for cert in measurement['_parsed']:
-                    print cert.get_issuer()
 
 class analyze_meta:
     def __init__(self, measurements):
@@ -173,7 +170,8 @@ class analyze_meta:
             
             consensus_hypothesis = [address for address, countries in consensus_template.iteritems() if len(countries) >= consensus_template_mean]
             definitions.logger.info("Hypothesis for valid %s answers based on a mean of %f is %s" % (self.data_type, numpy.asscalar(consensus_template_mean), consensus_hypothesis))
-        
+            self.consensus_hypothesis = consensus_hypothesis
+    
         consensus_topology = {'out': set(), 'in': set(), 'empty': set(), 'error': set()}
         
         for probe_id, probe_measurements in all_measurements.iteritems():
@@ -182,7 +180,7 @@ class analyze_meta:
                 if len(probe_measurements) == 0:
                     # , str(self.get_hint(probe_measurements['destination'], error_type = 'unresponsive'))
                     consensus_topology['empty'].add(probe_id)
-                    definitions.logger.debug("No Results %s %i" % (active_probes[probe_id][u'Country Code'], probe_id))
+                    definitions.logger.debug("No Results %s %i connecting to %s" % (active_probes[probe_id][u'Country Code'], probe_id, probe_measurements))
                 else:
                     for probe_measurement in probe_measurements['serial']:
                         if not (probe_measurement in consensus_hypothesis):
@@ -243,7 +241,7 @@ class analyze_sslcert(analyze_meta):
         
         if error_type == 'mismatch':
             for ssl_cert in parsed:
-                data_line = "%s from %s" % (ssl_cert.get_subject().CN, str(ssl_cert.get_issuer().O))
+                data_line = "%s from %s with sha1 of %s" % (ssl_cert.get_subject().CN, str(ssl_cert.get_issuer().O), str(ssl_cert.digest('sha1').lower().replace(':','')))
                 dataset_to_return.append(data_line)
         elif error_type == 'unresponsive':
             dataset_to_return = []

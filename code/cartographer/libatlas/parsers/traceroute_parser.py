@@ -17,17 +17,17 @@
 
 import base64
 import meta_parser
-import logger
-
-log = logger.get_logger()
 
 class Parser(meta_parser.MetaParser):
 
     def load(self, raw_measurement):
         
         temporary_route_list = {}
-        for measurement_record in raw_measurement['result']:
-            measurement_record['hop'] = int(measurement_record['hop'])
-            temporary_route_list[measurement_record['hop']] = [ (h['from'] if 'from' in h else None, h['rtt'] if 'rtt' in h else None) for h in measurement_record['result']]
-
+        if raw_measurement['result'][0].has_key('error'):
+            return None
+        else:
+            for measurement_record in raw_measurement['result']:
+                measurement_record['hop'] = int(measurement_record['hop'])
+                temporary_route_list[measurement_record['hop']] = [ (h['from'] if 'from' in h else None, h['rtt'] if 'rtt' in h else None) for h in measurement_record['result']]
+        
         return temporary_route_list

@@ -122,9 +122,6 @@ def main(args):
 
         action_class.display_consensus(consensus_topology)
         
-        if action_class.data_type == 'sslcert':
-            action_class.extract_certs(action_class.measurement_list)
-    
     elif args.action == 'measure':
         
         action_class = libatlas.measure(max_probes_per_measurement = MAX_PROBES_PER_MEASUREMENT, active_probes = args.active_probes, api_key = api_key)

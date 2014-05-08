@@ -5,42 +5,22 @@
 %talk about what were the charactestics we were interested to have in current tools, then talk about
 %Ripe atlas as a suitable tool, then talk about their issue related to cost function then talk about
 %our contributions.
-Two problematic issues are currently happening regards of Internet state: on one hand tools to apply
-censorship(in large scale like countries) is more available. Iranian government or African countries
-are just buying tools from China ... on the other hand it is challenging to find a reliable measurement machines.
 
-There are mainly two different ways to detect blockages of websites. Researchers can directly
-investigate conncetivity of clients in different countries by using volunteered distributed
-infrastructures such as PlanetLab(Cite), M-lab(Cite),and DIMES(Cite). As shwon by many previous works(cites),beside that the number of
-nodes are geographically and topologically biased, deploying any measurements take whiles.
-Researchers can also indirectly check the intentional packet drops using different side channels
-such as idle scans(cite roya's paper). The limitation with that approach is that current state of
-the arts for the idle scans are limited to test layer three connectivity. 
-%TODO: Collin and Philipp find/cite some news about african countries adopting censorship softwares.
-In the process of finding a proper tool to deploy quickly to test censorship, we summerized the
-properties that the tool should have. In our opinion, these are the necessary properties:
-availability, easy to use,  .  After analysing
-different existing tools we agreed that RIPE ATLAS is actually a good choice to do internet
-measurements studies. There are easy to setup and easy to use. The atlas for interesting regions  
-Talking about the importance of RIPE Atlas in the past months.
+As the technical means of content filtering have proliferated internationally and evolved in sophistication, the regulation of content under justifications of national security, intellectual property arrangements and public morality has led to an increasingly fragmented Internet. Telecommunications equipment vendors in the United States, Europe and China provide comprehensive solutions capable to aggressive filtering as a commercial service. Meanwhile, in the absence of widespread adoption security-enhanced network protocols, control of physical infrastructure and network services provides easy opportunities for censorship and surveillance by states and private actors. Although the Internet's protocols and applications may be resilient and transnational, its physical infrastructure has provided for regulation and monopolization by the state's power of coercision.
 
-RIPE Atlas~\cite{atlas} is an Internet measurement network which was started in 2010 by RIPE NCC.
-All measurement probes which constitute the network are run by volunteers.  Once a user connected
-her probe to the network, it can be used for measurements and the user is also able to run custom
-measurements by spending some of the network's currency, Atlas credits.  These credits are awarded
-automatically based on the upme of contributed probes.
+Concomitant to external interventions and interference in the free flow of information, civil society organizations and academic researchers have pursued international accountability and advocacy strategies based on the documentation of instances and forms of online censorship. Studies and public attention on Internet filtering have increased in part because its nature provides for quantitative and qualitative methodologies that would otherwise be difficult toward evaluating traditional freedom of expression issues. These approaches have taken three perspectives on networks to detect interference and restriction on the availability of content. Within the first, research is conducted using direct investigation of connectivity through volunteers and infrastructure located within the country and network under observations, pioneered by projects such as PlanetLab and DIMES \cite{chun2003planetlab, shavitt2005dimes}. Subsequent generations of specially-designed, censorship measurement initiatives and tools have arisen based on the topical need for data, discussed further in Section \ref{related_work}. 
 
-% What kind of measurements does Atlas allow?
-As of today, Atlas allows four types of measurements; ping, traceroute, DNS resolution, and X.509
-certificate fetching.  All four measurement types can further be parameterised for more fine-grained
-control.
+Network measurement software and equipment have followed geographic and topological biases toward academic hosts predominantly in the United States and Europe. Alternatively, researchers can also indirectly monitor the accessibility and topology of foreign networks through methods such as continual traceroutes, portscanning and disruptions of packets over side channels \cite{ensafi2010idle}. External monitoring of networks remains primarily limited to lower layer measurements on fundamental connectivity or performance, rather than discrimination of traffic based on protocol or content. 
 
-% What are our contributions?  Is there more?
-This work has three main contributions.
+Within a similar vein, researchers have taken advantage of configurations of network infrastructure within targeted countries in order to trigger application layer restrictions or the disclosure of information from a foreign location. This classification is ephermal, rather than structural, such relying on content filters applying the same rules to ingress traffic as they do outbound, or proxing requests through open network services in country \cite{wright2011fine}. This approach is ephermal and opportunistic, often reliant on the same mechanisms and open hosts that malicious actors use for more illicit activites. Therefore, as researchers utilitize such strategies for accountability purposes, and cybersecurity concerns grow, the window for such research may close.
+
+As the burgeoning field of specially-designed network monitoring initiatives and tools matures, there remains an outstanding need for best practices and responsive data as states impose sweeping restrictions on Internet accessibility. In order to contribute to the development of this broad field and shed light on opaque practices by network intermediaries, we assess the use of the RIPE Atlas community for the purpose of censorship detection and offer three main contributions:
+
 \begin{itemize}
-	\item We evaluate the aptitude of RIPE Atlas for censorship analysis.
-	\item We propose an algorithm to balance
-	timeliness, diversity, and cost to facilitate effective censorship analysis.\footnote{All our
+	\item We evaluate the aptitude of the RIPE Atlas platform and measurement suite for censorship analysis,
+	\item We propose an algorithm to balance timeliness, network diversity, and cost to facilitate effective censorship analysis.\footnote{All our
 	code will be publicly available but we redacted the URL for anonymisation.}
-	\item We present censorship analysis results based on several months of measurements.
+	\item We apply the platform and algorithm for analysis of ongoing censorship events across different countries, and results based on several months of measurements.
 \end{itemize}
+
+Within the process of evaluation we begin ellucidate properties that future initiatives and platforms should have in order to accomodate the diversity of the way that intermediaries disrupt connectivity. This endeavor also illustrates the holistic approaches to documenting instances of censorship and monitoring for future actions by censors. These findings begin to demonstrate the utility of Atlas and the promise of network measurement initiatives, as we are able to empirically document high profile events, such as Turkey's blocking of social media platforms, and shed light on private sector cooperation with Russia's censorship practices with a previously unseen level of grainularity.   
