@@ -1,21 +1,65 @@
 \section{Related Work}
 \label{related_work}
-% This section will review three topics: first current existing direct network measurment tools such as
-% Dimes, planet lab ,... Second Talks about other ways to do censorship analysis which is pretty much
-% idle scanning and using side channels ... Third: we also need to cite recent papers/articles using
-% Ripe for Internet measurment studies...
-% TO DO: Philipp and Roya ...
 
 % Longitudinal studies.
-It is not difficult to conduct one-off censorship studies because censors typically do not have
-sufficient time to react and thwart the study.  Longitudinal studies, on the other hand, are more
-challenging as they have to be designed in a tamper-proof way.  In 2007, Crandall et al.  proposed
-ConceptDoppler~\cite{Crandall2007}.  The design enables longitudinal censorship analysis by
-detecting which keywords are filtered by the Great Firewall of China (GFW) over time.  More
-recently, CensMon was introduced by Sfakianakis et al. in 2011~\cite{Sfakianakis2011}.  CensMon is a
-web censorship monitor which is run on top of PlanetLab~\cite{planetlab}.  Most recently,
-Filast\`{o} and Appelbaum presented OONI~\cite{Filasto2012} in 2012.  In contrast to CensMon and
-ConceptDoppler, OONI is deployed and has been used successfully.\footnote{Gathered reports are
-available online \url{https://ooni.torproject.org/reports/}.}  In parallel to all open platforms
-discussed above, proprietary platforms exist~\cite{hwang2007herdict,opennet} but we will not discuss them as
-their closed nature does not encourage analysis.
+It is not difficult to conduct one-off censorship studies because censors
+typically do not have sufficient time to react and thwart the study.
+Longitudinal studies, on the other hand, are more challenging as they have to
+be designed in a tamper-proof and sustainable way.  In 2007, Crandall et al.
+proposed ConceptDoppler~\cite{Crandall2007}.  The design enables longitudinal
+censorship analysis by detecting which keywords are filtered by the Great
+Firewall of China (GFW) over time.  More recently, CensMon was introduced by
+Sfakianakis et al. in 2011~\cite{Sfakianakis2011}.  CensMon is a web censorship
+monitor which is run on top of PlanetLab~\cite{planetlab}.  Most recently, in
+2012, Filast\`{o} and Appelbaum presented OONI~\cite{Filasto2012}.  In
+contrast to CensMon and ConceptDoppler, OONI is deployed and has been used
+successfully.\footnote{Gathered reports are available online at:
+\url{https://ooni.torproject.org/reports/}.}  In parallel to all open platforms
+discussed above, proprietary platforms exist~\cite{hwang2007herdict,opennet}.
+
+\begin{table*}[ht!]
+\centering
+\begin{tabular}{l|cccc}
+\textbf{Platform} & \textbf{Flexibility} & \textbf{Coverage} &
+\textbf{Blocking resistance} & \textbf{Main use} \\
+\hline 
+PlanetLab~\cite{planetlab} & High & Low/Medium & Medium & Network measurements \\
+Atlas~\cite{atlas} & Low & Medium/High & Medium & Network measurements \\
+Tor~\cite{Dingledine2004} & Medium & Medium & Low & Low-latency anonymity \\
+OONI~\cite{Filasto2012} & High & Low/Medium & Medium & Censorship analysis \\
+Herdict~\cite{Herdict} & Low & Low/Medium & Low & Censorship analysis \\
+OpenNet~\cite{opennet} & Low & Medium & High & Censorship analysis \\
+\hline 
+\end{tabular} 
+\caption{Comparison between several popular censorship analysis platforms.}
+\label{tab:comparison}
+\end{table*}
+
+% Comparison to other projects.
+Table~\ref{tab:comparison} contains a comparison between popular and deployed
+platforms which are or can be used for censorship analysis.  Our comparison is
+based on \emph{flexibility} (i.e., how many types of measurements can be run?),
+\emph{coverage} (i.e., how many probes in how many countries are available?),
+and \emph{blocking resistance} (i.e., how easy it is for censors to disable the
+respective platform?).  We qualitatively compare all platforms and assign them
+the labels ``Low'', ``Medium'', or ``High''.  Note that we do not propose
+Atlas as \emph{replacement} for any existing censorship measurement platforms.
+Instead, we see it as a \emph{complement} which contributes to the already
+existing landscape.
+
+% Previous Atlas censorship analysis.
+Atlas has already been used as platform for censorship analysis outside an
+academic setting.  In 2014, Maass used Atlas to find inconsistencies in the DNS
+records and X.509 certificates for torproject.org~\cite{Maass2014}.  In the
+same year, Bortzmeyer and Aben independently discussed Internet censorship in
+Turkey~\cite{Bortzmeyer14,Aben14}.  While we discuss the same topic in
+Section~\ref{sec:case_studies}, we do so with significantly more data and in a
+more rigorous fashion.
+
+% Side channel measurements.
+% TODO - Are there more papers we are missing?
+In the absence of analysis platforms or other means to access machines inside
+censoring countries, censorship analysis has to resort to exploiting TCP/IP
+side channels.  In particular, Ensafi et al. demonstrated that it is possible
+to measure intentional packet dropping without controlling either the source or
+the destination machine~\cite{Ensafi2014}.
