@@ -1,26 +1,46 @@
 \section{Introduction}
-%train of thoughts: talking about the recent popularity of censorship in the world and countires in
-%africa and middle easts(cite news article) Then talk about the exsisting methods and briefly critic
-%each one them
-%talk about what were the charactestics we were interested to have in current tools, then talk about
-%Ripe atlas as a suitable tool, then talk about their issue related to cost function then talk about
-%our contributions.
+Aided by network equipment vendors in the United States, Europe, and China,
+censoring regimes are tightening their grip on national communication
+infrastructure and continue to choke the Internet.  An important counter
+strategy is to measure, document, and expose Internet censorship incidents.
+Sunlight is known to be a disinfectant and by shedding light on these events,
+the public's attention can be drawn toward these actions which are frequently
+unlawful and unjust.  Several methods exist to measure censorship.  Ideally,
+the analyst has control over a censored source and an uncensored destination
+computer.  This is typically not the case, so research has to resort to open
+proxies, the help of volunteers, and existing censorship measurement platforms.
 
-As the technical means of content filtering have proliferated internationally and evolved in sophistication, the regulation of content under justifications of national security, intellectual property arrangements and public morality has led to an increasingly fragmented Internet. Telecommunications equipment vendors in the United States, Europe and China provide comprehensive solutions capable to aggressive filtering as a commercial service. Meanwhile, in the absence of widespread adoption security-enhanced network protocols, control of physical infrastructure and network services provides easy opportunities for censorship and surveillance by states and private actors. Although the Internet's protocols and applications may be resilient and transnational, its physical infrastructure has provided for regulation and monopolization by the state's power of coercision.
+All these methods have disadvantages.  Open proxies provide suffer from low
+network coverage, are unreliable, and are often limited to TCP streams or HTTP
+requests.  Cooperation with volunteers can lead to repurcissions and is time
+consuming.  Finally, censorship measurement platforms also suffer from limited
+network coverage and insufficient maintenance.  While are not able to solve all
+of these problems, we build our analysis platform on top of an existing, widely
+deployed and successful network measurement platform, RIPE's Atlas.  That way,
+we can largely ignore factors such as maintenance and outreach as it is taken
+care of by the network operator.  Instead, we only focus on making use of the
+existing resources in an effective way.
 
-Concomitant to external interventions and interference in the free flow of information, civil society organizations and academic researchers have pursued international accountability and advocacy strategies based on the documentation of instances and forms of online censorship. Studies and public attention on Internet filtering have increased in part because its nature provides for quantitative and qualitative methodologies that would otherwise be difficult toward evaluating traditional freedom of expression issues. These approaches have taken three perspectives on networks to detect interference and restriction on the availability of content. Within the first, research is conducted using direct investigation of connectivity through volunteers and infrastructure located within the country and network under observations, pioneered by projects such as PlanetLab and DIMES \cite{chun2003planetlab, shavitt2005dimes}. Subsequent generations of specially-designed, censorship measurement initiatives and tools have arisen based on the topical need for data, discussed further in Section \ref{related_work}. 
-
-Network measurement software and equipment have followed geographic and topological biases toward academic hosts predominantly in the United States and Europe. Alternatively, researchers can also indirectly monitor the accessibility and topology of foreign networks through methods such as continual traceroutes, portscanning and disruptions of packets over side channels \cite{ensafi2010idle}. External monitoring of networks remains primarily limited to lower layer measurements on fundamental connectivity or performance, rather than discrimination of traffic based on protocol or content. 
-
-Within a similar vein, researchers have taken advantage of configurations of network infrastructure within targeted countries in order to trigger application layer restrictions or the disclosure of information from a foreign location. This classification is ephermal, rather than structural, such relying on content filters applying the same rules to ingress traffic as they do outbound, or proxing requests through open network services in country \cite{wright2011fine}. This approach is ephermal and opportunistic, often reliant on the same mechanisms and open hosts that malicious actors use for more illicit activites. Therefore, as researchers utilitize such strategies for accountability purposes, and cybersecurity concerns grow, the window for such research may close.
-
-As the burgeoning field of specially-designed network monitoring initiatives and tools matures, there remains an outstanding need for best practices and responsive data as states impose sweeping restrictions on Internet accessibility. In order to contribute to the development of this broad field and shed light on opaque practices by network intermediaries, we assess the use of the RIPE Atlas community for the purpose of censorship detection and offer three main contributions:
+Finally, we believe that censorship analysis platforms do not have to compete
+with each other.  Indeed, existing platforms such as
+PlanetLab~\cite{planetlab}, Herdict~\cite{Herdict}, and OONI~\cite{Filasto2012}
+complement each other and provide analysts with diverse and unique views on
+Internet censorship.  We believe that a censorship analysis platform based on
+Atlas can provide an additional angle to the big picture whose strengths are
+wide deployment and rapid results as we will show later in this paper.
 
 \begin{itemize}
-	\item We evaluate the aptitude of the RIPE Atlas platform and measurement suite for censorship analysis,
-	\item We propose an algorithm to balance timeliness, network diversity, and cost to facilitate effective censorship analysis.\footnote{All our
-	code will be publicly available but we redacted the URL for anonymisation.}
-	\item We apply the platform and algorithm for analysis of ongoing censorship events across different countries, and results based on several months of measurements.
+	\item We evaluate the aptitude of RIPE's Atlas platform for censorship
+		analysis and propose an algorithm to balance timeliness, network
+		diversity, and cost to facilitate effective censorship analysis.
+	\item We apply the platform and algorithm for analysis of ongoing
+		censorship events across different countries, and results based on
+		several months of measurements.
 \end{itemize}
 
-Within the process of evaluation we begin ellucidate properties that future initiatives and platforms should have in order to accomodate the diversity of the way that intermediaries disrupt connectivity. This endeavor also illustrates the holistic approaches to documenting instances of censorship and monitoring for future actions by censors. These findings begin to demonstrate the utility of Atlas and the promise of network measurement initiatives, as we are able to empirically document high profile events, such as Turkey's blocking of social media platforms, and shed light on private sector cooperation with Russia's censorship practices with a previously unseen level of grainularity.   
+The remainder of this paper is structured as follows.
+Section~\ref{related_work} begins by giving an overview of related work which
+is then followed by our \textsf{Cartography}'s framework structure in
+Section~\ref{sec:framework}.  Next, we present two case studies in
+Section~\ref{sec:case_studies} and conclude the paper
+in~Section~\ref{sec:conclusion}.

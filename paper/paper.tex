@@ -40,9 +40,13 @@
 \date{}
 
 %make title bold and 14 pt font (Latex default is non-bold, 16 pt)
-\title{\Large \bf Cartography: Global Censorship Detection over the RIPE Atlas Network}
+\title{
+	\Large \bf Cartography: Global Censorship Detection \\
+	over the RIPE Atlas Network
+}
 
 \author{
+	Redacted for anonymization
 % {\rm First Name}\\
 % First Institution
 % \and
@@ -61,7 +65,19 @@
 
 \subsection*{Abstract}
 
-As governments, telecommunications providers and other intermedaries assert greater control over global Internet traffic, academic researchers and civil society organizations continue to face difficulties in developing the communities of volunteers and network perspectives that offer methodologically valid and empirical data on restrictions to the free flow of information online. While multiple initiatives promise specially-designed detection and evaluation of network interference, no current project offers widespread deployment or open access to grainular datasets. In order to foster broad, rapid and consistent measurements of high-profile censorship events, we utilize the RIPE Atlas network to demonstrate the mechanisms used by private and governmental actors to disrupt access to popular communications platforms. Based on these experiences, as well as both positive and negative properties of the Atlas network, we propose sustainable strategies for monitoring the global reachability of vital services through an algorithm that balance timeliness, diversity and cost. We then apply these premises toward evolving events in Turkey and Russia in order to test our assertions, in the process uncovering evidence of cooperation between a well-known blogging platform and government authorities for purposes of faciliating the censorship of hosted content. Finally, through the process of comparative analysis, we derive methodological lessons that will be broadly applicable for concurrent efforts to monitor global censorship through pervasive measurements.
+As governments, ISPs and other intermedaries assert greater control over the
+Internet, academic researchers and civil society organizations continue to face
+difficulties in developing countermeasures.  While multiple initiatives promise
+specially-designed censorship detection, no current project offers widespread
+deployment or open access to granular datasets.
+%
+In order to foster broad, rapid and consistent measurements of censorship
+events, we build on top of the RIPE Atlas network.  We propose strategies for
+monitoring the reachability of vital services through an algorithm that balance
+timeliness, diversity and cost.  We then apply these premises toward events in
+Turkey and Russia in order to test our assertions, in the process uncovering
+evidence of cooperation between a well-known blogging platform and government
+authorities for purposes of faciliating the censorship of hosted content.
 
 \input{introduction}
 
@@ -70,14 +86,16 @@ As governments, telecommunications providers and other intermedaries assert grea
 
 \input{Cost_Model}
 
-%\cite{Bortzmeyer14,Aben14}
-\input{infrastructure_considerations}
+% \input{infrastructure_considerations}
 
 \input{case_studies}
 
-\input{discussion}
+%\input{discussion}
 
-\input{acknowledgments}
+\input{conclusion}
+
+% No acknowledgements for anonymization.
+% \input{acknowledgments}
 
 \raggedright
 \printbibliography
