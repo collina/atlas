@@ -1,18 +1,13 @@
 \section{Framework Structure}
 \label{sec:framework}
-We now discuss Atlas' aptitude as censorship analysis platform and continue by
-presenting \textsf{Cartography}, our censorship analysis framework which is
-based on RIPE Atlas.
+In order to assess Atlas' aptitude as a censorship measurement platform, we continue by presenting \textsf{Cartography}, our framework based on RIPE Atlas.
 
 \subsection{RIPE Atlas Background}
 % Some basic information about Atlas.
 Having been founded in 2010 by RIPE NCC, Atlas~\cite{atlas} is a globally
-distributed Internet measurement network consisting of probes run by
-volunteers.  Once a user connected her probe to the network, it can be used for
-measurements and the user is also able to run custom measurements by spending
-some of the network's currency, Atlas credits.  These credits are awarded
-automatically based on the uptime of contributed probes.  Measurements can be
-run either over the web frontend, or over a HTTP-based API.
+distributed Internet measurement network consisting of physical probes hosted by
+volunteers.  Once a user connects her probe to the network, it can be used by other participants for outbound measurements. So-called \emph{credits} are awarded
+automatically based on the uptime of contributed probes, which are expended in order to perform custom measurements. Queries to probes can be initialized centrally either over the web frontend, or over a RESTful API.
 
 % Geographic and topological distribution.
 An ideal censorship measurement platform features high geographic and
@@ -36,12 +31,12 @@ currently offline.  The distribution is biased towards the U.S. and Europe.}
 
 % What kind of measurements does Atlas allow?
 As of May 2014, Atlas allows four types of measurements; ping, traceroute, DNS
-resolution, and X.509 certificate fetching.  All four measurement types can
+resolution, and X.509 certificate fetching (labeled SSLCert).  All four measurement types can
 further be parameterized for more fine-grained control.  HTTP requests are not
-possible at this point due to concerns.  While Atlas clearly lacks the
+possible at this point due to abuse and security concerns.  While Atlas clearly lacks the
 flexibility of comparable platforms (see Table~\ref{tab:comparison}), it makes
-up for it with comparably high diversity and its continued growth.  After all,
-we do not expect Atlas to replace existing platforms such as OONI but rather to
+up for it with comparably high diversity, responsiveness and continued growth.  After all,
+we do not expect Atlas to replace existing platforms, such as OONI, but rather to
 \emph{complement} them.
 
 % TODO - Should we talk about our crappy command-line interface?
@@ -51,10 +46,9 @@ we do not expect Atlas to replace existing platforms such as OONI but rather to
 % experiments and then it will give you predicted cost. This way we can move to
 % cost function.
 
-\subsection{Atlas' Cost Model}
+\subsection{Atlas Cost Model}
 
-As briefly mentioned above, Atlas' measurement have to be paid with so-called
-\emph{credits}.  The exact ``price'' of a measurement depends on the
+As briefly mentioned above, Atlas' measurement have to be paid with credits.  The exact ``price'' of a measurement depends on the
 measurement type, its parameters, and the destination(s).  The credit system
 works based on a linear cost model.  Each user has a credit balance that can be
 increased by hosting Atlas probes, or by receiving credits from other users.
@@ -62,9 +56,9 @@ increased by hosting Atlas probes, or by receiving credits from other users.
 Table~\ref{tab:cost} list the currently available measurement types as well as
 their associated costs.  While DNS and SSLCert measurements have a fixed cost,
 ping and traceroutes vary depending on the amount and sizes of packets.  Also,
-the atomic cost of one-off measurements is twice as much as the one of repeated
+the atomic cost of one-off measurements are twice as much as the one of repeated
 measurements.  When scheduling a new experiment, the user first specifies the
-details (e.g., measurement type as well as measurement parameters).  Afterwards,
+details (e.g., measurement type as well as measurement parameters).  Afterwards, the
 Atlas web-based frontend calculates the measurement costs on the server side and
 shows it to the user.  Finally, upon completion of the measurement, the
 respective cost is subtracted from the user's credit balance.
@@ -123,12 +117,4 @@ the cost for TCP-based DNS measurement differs for UDP-based measurements.}
 Atlas was not designed as censorship analysis platform and accordingly, its
 volunteers likely do not expect that their probes will be used for such
 purposes.  Careless measurements could attract a censor's attention and cause
-repercussions for the respective probe operator.
-
-% How we justify our research.
-Recall that Atlas' measurement types are limited to ping, traceroute, DNS
-requests and X.509 certificate fetching.  As of May 2014, it is not possible to
-create HTTP requests or engage in actual, meaningful communication with
-arbitrary destinations which limits the damage caused by reckless measurement.
-Nevertheless, we acknowledge that care must always be taken and hope to initiate
-further ethical discussions.
+repercussions for the respective probe operator. However, Atlas' measurement types are limited to ping, traceroute, DNS requests and X.509 certificate fetching.  As of May 2014, it is not possible to create HTTP requests or engage in actual, meaningful communication with arbitrary destinations, which limits the damage caused by reckless measurement. Nevertheless, we acknowledge that care must be taken and hope to initiate further ethical discussions that would inform broader measurement efforts.

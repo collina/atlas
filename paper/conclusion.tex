@@ -1,18 +1,12 @@
 \section{Conclusion}
 \label{sec:conclusion}
 
-In this paper, we have presented \textsf{Cartography}, a censorship measurement
-platform which builds on top of RIPE's Atlas network.  That way, we can ignore
-factors such as network maintenance and outreach and focus on rapid analysis
-and diverse measurements.  On the downside, \textsf{Cartography} provides less
-flexibility than related platforms due to the limited amount of measurements
-available.
+In this paper, we have presented a first look at \textsf{Cartography}, a censorship measurement platform that builds on top of the RIPE Atlas network.  Our measurements and analysis provide an early perspective on the opportunities and methodologies possible with pervasive censorship research. Previous examinations of Internet filtering have tended to analyze specific apparatuses on a per-country basis, assuming internal consistency. This past approach has been appropriate for describing the diversity of methods used to control access globally, as well as for when the primary research focus is on content themes and in countries that impose restrictions at central points of transit. 
 
-We evaluated \textsf{Cartography} by using it to analyze three recent and
-large-scale censorship incidents in Russia and Turkey.  The available
-measurement types proved sufficient to uncover interesting censorship
-practices.  \textbf{All our code and data will be made freely available upon
-publication.}
+However, as Internet censorship has increased in countries and polities with competition and private markets at the international frontier, researchers can no longer assume direct and homogenous control by authorities. Our applications of Cartography against two recent and
+large-scale censorship incidents in Russia and Turkey demonstrate this. Russia and Turkey's networks are more administratively and technically decentralized than China and Iran~\cite{Roberts2011}. Delays or irregulatories of implementation sheds light on the inconsistences of the administration of censorship. 
+
+Our initial research demonstrates that across national networks there are substantive differences of methods, rates of implementation, and, in at least one case, even selective compliance for content restrictions. Moreover, the available measurements of Atlas proved sufficient for Cartography to uncover interesting and evolving censorship practices in jurisdictions that are only beginning to assert expansive control of online content. These clear trends in network interference necessitate the continued deployment of initiatives like Cartography, in service of this ambition \textbf{all code and data will be made freely available upon publication.}
 
 % The implementation of the March 22nd address blockage of Google Public DNS falsely appears based on timing metrics to be a route hijack. While retaining valid routes across the international frontier into Google's network, the round trip times for several probes dropped precipitiously preceeding their blockage. For one of the last probes blocked, the time taken to reach the last hop out of the country had declined from 60.893 ms to 23.164 ms. However, by March 28,
 

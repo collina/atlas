@@ -1,46 +1,23 @@
 \section{Introduction}
 Aided by network equipment vendors in the United States, Europe, and China,
-censoring regimes are tightening their grip on national communication
-infrastructure and continue to choke the Internet.  An important counter
-strategy is to measure, document, and expose Internet censorship incidents.
-Sunlight is known to be a disinfectant and by shedding light on these events,
-the public's attention can be drawn toward these actions which are frequently
-unlawful and unjust.  Several methods exist to measure censorship.  Ideally,
-the analyst has control over a censored source and an uncensored destination
-computer.  This is typically not the case, so research has to resort to open
-proxies, the help of volunteers, and existing censorship measurement platforms.
+a broad range of governments and private intermediaries have sought to assert control over communications infrastructure, in order to monitor and limit the free flow of information over the Internet.  An important counter strategy for civil society and academic organizations is to measure, document, and expose Internet interference and censorship incidents. Sunlight is said to be a disinfectant and, by shedding light on these events, the public's attention can be drawn toward remediation of actions that are frequently unlawful, extreme and unjust.  
 
-All these methods have disadvantages.  Open proxies provide suffer from low
-network coverage, are unreliable, and are often limited to TCP streams or HTTP
-requests.  Cooperation with volunteers can lead to repurcissions and is time
-consuming.  Finally, censorship measurement platforms also suffer from limited
-network coverage and insufficient maintenance.  While are not able to solve all
-of these problems, we build our analysis platform on top of an existing, widely
-deployed and successful network measurement platform, RIPE's Atlas.  That way,
-we can largely ignore factors such as maintenance and outreach as it is taken
-care of by the network operator.  Instead, we only focus on making use of the
-existing resources in an effective way.
+Several methods exist to detect and assess network interference and censorship.  Ideally, the analyst has direct control over a censored source host that can perform measurements against an uncensored destination.  This is typically not the case, however, so research often has to opportunistically resort to open proxies, the help of volunteers, and existing measurement platforms. All of these methods have advantages and disadvantages.  Open proxies suffer from low network coverage, are unreliable or questionably reflect typical conditions, and are often limited to TCP streams or HTTP requests. Cooperation with volunteers exposes individuals to potental harm and is time-consuming. Current, specially-designed censorship measurement platforms suffer from limited deployment and insufficient maintenance. Therefore, in order to develop ubiquitous and real-time perspectives of interference, we begin to build an assessment mechanism on top of an existing, widely-deployed measurement platform, the RIPE Atlas network.
 
-Finally, we believe that censorship analysis platforms do not have to compete
-with each other.  Indeed, existing platforms such as
-PlanetLab~\cite{planetlab}, Herdict~\cite{Herdict}, and OONI~\cite{Filasto2012}
-complement each other and provide analysts with diverse and unique views on
-Internet censorship.  We believe that a censorship analysis platform based on
-Atlas can provide an additional angle to the big picture whose strengths are
-wide deployment and rapid results as we will show later in this paper.
+Finally, we believe that censorship analysis is a non-zero sum development effort. Existing platforms, such as PlanetLab~\cite{planetlab}, Herdict~\cite{Herdict}, and OONI~\cite{Filasto2012}, are complementary and provide unique perspectives on the diverses forms of interference used to limit access. We believe that a censorship analysis platform based on Atlas can provide an additional perspective to the bigger picture, one whose strengths are wide deployment, rapid results and the foreshadowing of broader lessons. Toward these objectives, in this paper, we:
 
 \begin{itemize}
-	\item We evaluate the aptitude of RIPE's Atlas platform for censorship
+	\item We evaluate the aptitude of the RIPE Atlas platform for censorship
 		analysis and propose an algorithm to balance timeliness, network
-		diversity, and cost to facilitate effective censorship analysis.
-	\item We apply the platform and algorithm for analysis of ongoing
-		censorship events across different countries, and results based on
+		diversity, and cost, in order to facilitate effective analysis.
+	\item We apply the platform and algorithm for monitoring of ongoing
+		censorship events across different countries, and provide results based on
 		several months of measurements.
 \end{itemize}
 
 The remainder of this paper is structured as follows.
-Section~\ref{related_work} begins by giving an overview of related work which
+Section~\ref{related_work} begins by giving an overview of related work, which
 is then followed by our \textsf{Cartography}'s framework structure in
-Section~\ref{sec:framework}.  Next, we present two case studies in
-Section~\ref{sec:case_studies} and conclude the paper
+Section~\ref{sec:framework}.  After, we present two case studies in
+Section~\ref{sec:case_studies} and conclude the paper with final thoughts
 in~Section~\ref{sec:conclusion}.
