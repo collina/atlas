@@ -23,6 +23,7 @@
 \documentclass[letterpaper,twocolumn,10pt]{article}
 
 \usepackage{usenix,epsfig,endnotes}
+\usepackage{flushend}
 \usepackage{hyperref}
 \usepackage{color}
 \usepackage[backend=bibtex]{biblatex}
@@ -32,7 +33,15 @@
 \urlstyle{sf}
 
 \definecolor{dred}{rgb}{0.8,0,0}
-\hypersetup{colorlinks=true,urlcolor=blue,linkcolor=blue,citecolor=blue}
+\hypersetup{
+	pdftitle={Global Censorship Detection over the RIPE Atlas Network},
+	pdfauthor={Collin Anderson, Philipp Winter, Roya},
+	pdfkeywords={ripe atlas, censorship, measurement},
+	colorlinks=true,
+	urlcolor=blue,
+	linkcolor=blue,
+	citecolor=blue
+}
 
 \begin{document}
 
@@ -41,20 +50,22 @@
 
 %make title bold and 14 pt font (Latex default is non-bold, 16 pt)
 \title{
-	\Large \bf Cartography: Global Censorship Detection \\
+	\Large \bf Global Censorship Detection \\
 	over the RIPE Atlas Network
 }
 
 \author{
-	Redacted for anonymization
-% {\rm First Name}\\
-% First Institution
-% \and
-% {\rm Second Name}\\
-% Second Institution
-% \and
-% {\rm Collin Anderson}\\
-% Annenberg School, University of Pennsylvania
+	{\rm Collin Anderson} \\
+	University of Pennsylvania \\
+	{\sf \href{mailto:cda@asc.upenn.edu}{cda@asc.upenn.edu}}
+	\and
+	{\rm Philipp Winter} \\
+	Karlstad University \\
+	{\sf \href{mailto:phw@nymity.ch}{phw@nymity.ch}}
+	\and
+	{\rm Roya} \\
+	Independent Researcher \\
+	{\sf \href{mailto:roya@example.com}{roya@example.com}}
 }
 
 \maketitle
