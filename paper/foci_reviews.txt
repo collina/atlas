@@ -1,0 +1,203 @@
+===========================================================================
+                            FOCI '14 Review #3A
+                     Updated 3 Jun 2014 9:04:47am PDT
+---------------------------------------------------------------------------
+    Paper #3: Cartography: Global Censorship Detection over the RIPE Atlas
+              Network
+---------------------------------------------------------------------------
+
+                      Overall merit: 2. Weak reject
+                 Reviewer expertise: 4. Expert
+
+                         ===== Paper summary =====
+
+This paper proposes to use RIPE Atlas for detection of censorship. The authors describe RIPE Atlas and present two case studies of using it to detect censorship. The authors name their system "Cartography" but the precise nature of what their contribution is aside from a command line interface to RIPE Atlas is unclear. The case studies are interesting but overall take aways are not clear.
+
+                      ===== Comments for author =====
+
+- This paper proposes to use RIPE Atlas for measuring Internet censorship. While the authors provide a small paragraph about ethical considerations it isn't clear what steps the authors do to to mitigate risk to RIPE Atlas users (e.g., by not querying sensitive domains etc.). Based on the case studies I am doubtful steps have been taken to reduce risk. I worry if this system is released people will start using Atlas to measure censorship and thus jeopardize a platform that is a great value to the network measurement community as a whole. Further, the addition of 'Cartography' on top of RIPE Atlas is unclear aside from a command line interface and credit usage estimator.
+- I would have expected a more systematic approach to measurements given that the paper is proposing a framework for measurements. The case studies are interesting but seem to be opportunistic/ad hoc measurements made using RIPE Atlas. 
+
+Detailed comments:
+- 4.2 you need to better define what you mean by an 'aberrant DNS answer'. How do you detect this, how do you have confidence. I see some of the addresses returned are non-routable, but what about the others? 
+- Figure 2 what is the Y-axis? The figure is hard to read and fonts in Figs 2-4 are too small.
+- When discussing blogs resolving to 208.93.0.150 and whether the content was retrievable the authors should say where these measurements were made from. I would assume reachability could not have been measured via RIPE as it discusses HTTP headers. 
+- The take away/potential implications about the SSL certificate results in Russia should be made clearer. Does this point to a new type of measurement missing from existing measurement systems that should be considered?
+- [Nit pick] The following is not a sentence: "Hollistic interference suggesting the
+redirection at the network layer, rather than application based
+decisions or termination of traffic associated with
+deep packet inspection."
+
+===========================================================================
+                            FOCI '14 Review #3B
+                     Updated 16 Jun 2014 2:21:47pm PDT
+---------------------------------------------------------------------------
+    Paper #3: Cartography: Global Censorship Detection over the RIPE Atlas
+              Network
+---------------------------------------------------------------------------
+
+                      Overall merit: 4. Accept
+                 Reviewer expertise: 3. Knowledgeable
+
+                         ===== Paper summary =====
+
+This article proposed the use of the RIPE Atlas Network for global detection of filtering, and provides two in-detail case studies made through use of the tool.
+
+                      ===== Comments for author =====
+
+This article provides an proposed tool for other research efforts looking at
+filtering and blocking, and the case studies show that it is a practical and
+actively valuable contribution. 
+
+(You're perhaps a little overly apologetic regarding competing/complementing
+ConceptDoppler, CensMon, Herdict, and OONI, but it never hurts to be polite.)
+
+The section on ethical aspects is well taken; Wright et al.'s 'Fine-Grained
+Censorship Mapping - Information Sources, Legality and Ethics' from FOCI 2011
+would be a relevant reference, although I imagine that terms of service and
+acceptable usage policies are equally applicable here.
+
+I have no significant criticisms of this paper, but one discussion point around
+this work would be how to reliably and comparatively analyse and present the
+results of the analyses. The case studies here are fascinating, but suffer from
+a common problem of being relatively hard to follow walls of statistics and IP
+addresses.
+
+I was slightly disappointed that the analysis of the Turkish case made use of
+such a restricted set of data -- Twitter, YouTube, Google DNS, and Tor is
+hardly representative, and part of the purpose of this approach appears to be
+the possibility for much broader analysis. The concern here is that, if the
+credit-model limits the availability of testing then there is a significant
+limitation to the platform and approach itself.
+
+Perhaps a minor point, but I would consider carefully the use of the term
+'censorship' in the general case. Whilst both the cases presented here can be
+strongly argued to be censorship per se, the political or normative
+connotations of the term can be problematic in general research. We can
+objectively detect filtering and blocking, with some caveats, but determining
+that certain actions are censorship opens an entire debate around values and
+politics that might best be avoided.
+
+Overall, however, this is an useful article and could stimulate excellent
+debate and further research.
+
+===========================================================================
+                            FOCI '14 Review #3C
+                     Updated 22 Jun 2014 5:52:27pm PDT
+---------------------------------------------------------------------------
+    Paper #3: Cartography: Global Censorship Detection over the RIPE Atlas
+              Network
+---------------------------------------------------------------------------
+
+                      Overall merit: 4. Accept
+                 Reviewer expertise: 3. Knowledgeable
+
+                         ===== Paper summary =====
+
+This paper describes using the ripe atlas measurement overlay network
+to do two reactive (rather than proactive) interference measurements --
+one when Turkey banned Youtube and the Torproject website, and one when
+Russia started blocking certain Livejournal accounts.
+
+                      ===== Comments for author =====
+
+"In total our measurements cover all of the /24 subnets
+within China" but later you note that maybe 20% of your subnets
+that you think in China aren't. Could it be that you missed looking
+at some subnets that are in China, because your geoip db was wrong
+in the other direction too?
+
+"Previous work has demonstrated that the GFW does not distinguish
+traffic directionality" -- how do you say this in the present tense when
+the previous work was in the past? More broadly, since GFW is always
+adapting, how do we as researchers handle the fact that we never know
+whether previous conclusions are still valid?
+
+Would be nice to line up Figure 3a and 3b so we can visually compare
+the timelines.
+
+Table 2a confuses me -- are there 8933 blocked domains that contain the
+substring facebook.com? Isn't facebook.com one domain? Are you (instead)
+counting the number of subdomains that blocked domains use?
+
+You saw 7000 interfaces, but suspect most of those are false positives:
+"the Great Firewall’s monitors view at most about 7,000 (and likely
+just a few hundred) associated network links," What methodologies might
+we use to pare the list down to the "real" ones?
+
+===========================================================================
+                            FOCI '14 Review #3D
+                    Updated 22 Jun 2014 11:14:52pm PDT
+---------------------------------------------------------------------------
+    Paper #3: Cartography: Global Censorship Detection over the RIPE Atlas
+              Network
+---------------------------------------------------------------------------
+
+                      Overall merit: 3. Weak accept
+                 Reviewer expertise: 3. Knowledgeable
+
+                         ===== Paper summary =====
+
+This paper uses RIPE Atlas to document two censorship events (Turkish
+censorship of Twitter, and Russian censorship of Alexei Navalny).
+The goal is to illustrate the potential for using Atlas to augment other tools.
+
+                      ===== Comments for author =====
+
+This paper has two points: (i) RIPE Atlas may complement existing
+measurement platforms to detect censorship, (ii) RIPE says something
+about two specific events (Turkish censorship of Twitter, and Russian
+censorship of Alexei Navalny).
+
+I think both are true.
+
+Unfortunately, the paper does a poor job of using (ii) to motivate
+(i).  With 2.5 pages about the two events, I would like to see stated
+clearly:  what did Atlas show that other tools would have missed?  How
+many credits did these measurements cost?
+
+Without answer things questions, the "data" (ii) in the paper do
+nothing to support the claims (i).
+
+These questions are critical to making the case that Atlas has a role.
+
+Since the "credit" model is new, I would love to see how many credits
+this data cost, and how many Atlas nodes I would need to earn that
+credit.
+
+More importantly, other than the qualitative assertions in table 1,
+the examples don't show that RIPE's advantages made these case studies
+possible in a way that the other platforms couldn't also cover.
+
+Both of these questions can be quickly addressed by the authors;
+doing so would make this a fine paper for FOCI.
+
+Minor comments:
+
+Discussion about risk of using Atlas in 3.3 seems weak.  Did Turkey
+not notice your longitudinal, systematic attempts to contact 8.8.8.8?
+
+===========================================================================
+                            FOCI '14 Review #3E
+                     Updated 23 Jun 2014 3:45:46am PDT
+---------------------------------------------------------------------------
+    Paper #3: Cartography: Global Censorship Detection over the RIPE Atlas
+              Network
+---------------------------------------------------------------------------
+
+                      Overall merit: 3. Weak accept
+                 Reviewer expertise: 4. Expert
+
+                         ===== Paper summary =====
+
+The paper uses the RIPE Atlas testbed as a censorship monitoring system.  The paper uses the ping measurements that can be made from the RIPE testbed to perform reachability experiments to a variety of destinations.  The paper also describes two case studies: the Turkey DNS hijack and the censorship of a high-profile Russian blog.
+
+                      ===== Comments for author =====
+
+This is a well-written paper that shows the utility of RIPE Atlas for performing certain types of censorship measurements.  One of my concerns about the platform that I'd like to see addressed in the paper is that the testbed clearly will not detect all forms of censorship.  In particular, it will not detect censored search results, censorship being implemented as performance degradation, and so forth.  The RIPE Atlas testbed is very limited in terms of the measurements that it supports, and the paper should be more open about the fact that as censorship methods become more sophisticated, this platform may not be that useful for detecting various flavors of information control.
+
+The presentation of results/data in this paper is extremely cryptic.  Figure 2 is essentially impossible to read, and it does not seem to show much.  The AS graphs such as Figure 3 are similarly uninteresting and cryptic.  As these are merely illustrating singular incidents, instead of trends, I would suggest limiting their real estate in the paper.  Some attempts to generalize the results would be appreciated.
+
+My yearning for some generality is in response to the case studies, as well.  OK, DNS was blocked in Turkey, and RIPE Atlas saw it.  So what?  Is there something that you can see with this platform/technique that other techniques would have missed?  Some articulation of and rationale for the architecture would be much appreciated; otherwise, it appears as an attempt to retrofit some data from RIPE Atlas to a censorship question (which would be fine, too, but just be upfront about that).
+
+I found the ethics section of the paper unsatisfying, but perhaps this is something for discussion at the workshop.
