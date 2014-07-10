@@ -90,7 +90,7 @@ def main(args):
     unavailable = reserved | private
     
     destination_address = None
-    filter_country = 'ru'
+    filter_country = 'ir'
     graph_start = datetime.strptime('2014-04-07 18:00', '%Y-%m-%d %H:%M')
     graph_end = datetime.strptime('2015-04-07 20:00', '%Y-%m-%d %H:%M')
 #    graph_start = datetime.strptime('2014-03-21 2:00', '%Y-%m-%d %H:%M')
@@ -99,8 +99,8 @@ def main(args):
 #    graph_start = datetime.strptime('2014-03-22 2:00', '%Y-%m-%d %H:%M')
 #    graph_end = datetime.strptime('2014-03-22 3:00', '%Y-%m-%d %H:%M')
 
-    interesting_paths = [13459, 13459, 10916, 10916, 168, 168, 173,    10096, 10184]
-    
+#    interesting_paths = [13459, 13459, 10916, 10916, 168, 168, 173,    10096, 10184]
+
     #  12889, 12889, 13930, 13930, 173, 11473, 11473, 3827, 3827, 244, 244, 3837, 3837, 11024, 11024, 3861, 3861, 13590, 13590, 11043, 11043, 11047, 11047, 3880, 3880, 11063, 11063, 11066, 11066, 11071, 11071, 14680, 14680, 2917, 2917, 3945, 3945, 12139, 12139, 3959, 3959, 3960, 3960, 462, 462, 165, 165, 11751, 11751, 10228, 10228
     # , 173, 244, 2843, 2917, 343, 3719, 3791, 3827, 3857, 3861, 3880, 3958, 3960, 4440, 4756, 482
     
@@ -109,11 +109,12 @@ def main(args):
     for results_file in args.file_in:
         for raw_data in json.load(results_file):
             timestamp = datetime.fromtimestamp(int(raw_data['timestamp']))
-            if (timestamp > graph_start and timestamp < graph_end) and raw_data[u'prb_id'] in interesting_paths:
+            if (timestamp > graph_start and timestamp < graph_end) and raw_data.has_key('dst_addr'): #and raw_data[u'prb_id'] in interesting_paths
                 if destination_address == None:
                     destination_address = raw_data['dst_addr']
                 parsed_path = parser.load(raw_data)
-                start, end  = raw_data[u'src_addr'], raw_data[u'dst_addr']
+                start, end  = raw_data['src_addr'], raw_data['dst_addr']
+                print start, end
                 temporary_route = []
                 
                 if parsed_path is not None:
@@ -218,6 +219,8 @@ def traceroutes_to_nodes(graph, routes = {}, mask = {}, minimal = False, asn_loc
                     else:
                         cluster[cluster_key] = pydot.Cluster(cluster_key, style="invis")
                 
+                if node == trace[0]:
+                    label = 'Start'
                 nodes[ name ] = pydot.Node(name, style=node_style['style'], nodesep=node_style['nodesep'], width=node_style['width'], shape= node_style['shape'], label = label)
                 
                 if cluster_key is not None:

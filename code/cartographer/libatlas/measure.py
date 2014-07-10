@@ -61,7 +61,7 @@ class measure():
                 defined_query['port'] = str(additional_arguments['port']) if additional_arguments.has_key('port') else str(443)
             elif test == 'traceroute':
                 defined_query['target'] = target.lower()
-                defined_query['port'] = str(additional_arguments['port']) if additional_arguments.has_key('port') else str(80)
+                defined_query['port'] = str(additional_arguments['port']) if additional_arguments.has_key('port') else str(443)
     
         defined_query['description'] = json.dumps(defined_query)
         measurement_data['definitions'].append(defined_query)

@@ -26,3 +26,7 @@ code/cartographer/info.log
 *.log
 
 *.pyc
+
+code/cartographer/info.log
+
+code/cartographer/state.db3
