@@ -26,7 +26,7 @@
 \usepackage{flushend}
 \usepackage{hyperref}
 \usepackage{color}
-\usepackage[backend=bibtex]{biblatex}
+\usepackage[backend=bibtex,sortcites]{biblatex}
 \bibliography{bibliography}
 
 % Don't use monospace URLs.
@@ -56,16 +56,13 @@
 
 \author{
 	{\rm Collin Anderson} \\
-	University of Pennsylvania \\
-	{\sf \href{mailto:cda@asc.upenn.edu}{cda@asc.upenn.edu}}
+	University of Pennsylvania
 	\and
 	{\rm Philipp Winter} \\
-	Karlstad University \\
-	{\sf \href{mailto:phw@nymity.ch}{phw@nymity.ch}}
+	Karlstad University
 	\and
 	{\rm Roya} \\
-	Independent Researcher \\
-	{\sf \href{mailto:roya@example.com}{roya@example.com}}
+	Independent Researcher
 }
 
 \maketitle
@@ -76,19 +73,15 @@
 
 \subsection*{Abstract}
 
-As governments, ISPs and other intermedaries assert greater control over the
-Internet, academic researchers and civil society organizations continue to face
-difficulties in developing countermeasures.  While multiple initiatives promise
-specially-designed censorship detection, no current project offers widespread
-deployment or open access to granular datasets.
-%
-In order to foster broad, rapid and consistent measurements of censorship
-events, we build on top of the RIPE Atlas network.  We propose strategies for
-monitoring the reachability of vital services through an algorithm that balance
-timeliness, diversity and cost.  We then apply these premises toward events in
-Turkey and Russia in order to test our assertions, in the process uncovering
-evidence of cooperation between a well-known blogging platform and government
-authorities for purposes of faciliating the censorship of hosted content.
+Existing censorship measurement platforms frequently suffer from poor adoption,
+insufficient geographic coverage, and scalability problems.  In order to
+overcome these issues, we build on top of the already existing RIPE Atlas
+platform.  In particular, we propose methods for monitoring the reachability of
+vital services through an algorithm that balance timeliness, diversity, and
+cost.  We then use Atlas to investigate blocking events in Turkey and Russia.
+Our measurements uncovered evidence of cooperation between a well-known
+blogging platform and government authorities for purposes of blocking hosted
+content.
 
 \input{introduction}
 
