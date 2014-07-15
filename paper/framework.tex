@@ -1,11 +1,11 @@
 \section{Framework Structure}
 \label{sec:framework}
-In order to assess Atlas' aptitude as a censorship measurement platform, we
+In order to assess Atlas' aptitude as a interference measurement platform, we
 continue by presenting our framework which is based on Atlas.
 
 \subsection{RIPE Atlas Background}
 % Some basic information about Atlas.
-Having been founded in 2010 by RIPE NCC, Atlas~\cite{atlas} is a globally
+Founded in 2010 by RIPE NCC, Atlas~\cite{atlas} is a globally
 distributed Internet measurement network consisting of physical probes hosted
 by volunteers.  Once a user connects her probe to the network, it can be used
 by other participants for measurements. So-called \emph{credits} are awarded
@@ -14,9 +14,9 @@ order to perform custom measurements. Queries to probes can be initialized
 centrally either over the web frontend, or over a RESTful API.
 
 % Geographic and topological distribution.
-An ideal censorship measurement platform features high geographic and
+An ideal measurement platform features high geographic and
 topological diversity, thereby facilitating measurements in any region where
-censorship occurs.  While Atlas probes are distributed throughout the world,
+filtering occurs.  While Atlas probes are distributed throughout the world,
 there is a significant bias towards the U.S. and Europe as can be seen in
 Figure~\ref{fig:probe_distribution}.  As for Atlas' topography, only 68
 autonomous systems contain 40\% of all Atlas probes with the three most common
@@ -117,21 +117,29 @@ sizes.}
 \label{tab:cost} 
 \end{table}
 
+\subsection{Considerations in Assessing Measurement Validity}
+
+Despite their distribution across a diversity of countries and networks, RIPE Atlas may not fully reflect the Internet as it is experienced by the general public, as probes neither fully emulate the network position nor the configuration of an average user. As an immediate control, efforts are taken to verify the reachability of non-controversial content and identify whether probes use domestic name servers. These probes may be excluded from measurements in order to avoid Type 1 and Type 2 errors.
+
+Even with additional precautions, incongruences across observations are an inevitable a product of the high rate of placement of probes on commercial and academic networks. These institutions may have alternative connectivity that is faster and less highly regulated than consumer networks. Additionally, disrupting or degrading connections based on plaintext data, traffic classification or application headers would fall outside of the measurements currently possible with Atlas probes. Lastly, Atlas, as with most measurements outlined within Section~\ref{related_work}, is unlikely to detect content restrictions imposed by the platforms themselves, such as search result manipulation or withholding of content based on a user's physical location.
+
+\subsection{Consensus Building}
+
+The international distribution of web services, for purposes of performance, failover and load balancing, has created additional complexity in the determining whether answers received over the Internet are genuine. While SSL and DNSSEC utilize third-party trust to validate answers, Certificate Authorities have been previously compromised by state and non-state actors, and DNSSEC is not widely implemented. In order to validate answers within the Atlas network, we use a cross-country comparision of responses to queries. This methodology assumes that states that interfere with connectivity do not coordinate strategies internationally. States and Internet service providers impose different approaches to content-filtering for purposes of localization, infrastructure or even the monetization of blocked traffic. Furthermore, surveillance is more effective when the public is unaware of the practices and technologies employed against them, placing an strong incentive on secrecy and narrow targeting. Therefore, as a simple test of validity, we count the number of countries or ASNs that an answer, such as a DNS A record, final network of transit or a certificate hash, is seen. Any response with fewer than the mean number of jurisdictions or those within private network spaces (RFC 1918~\cite{rfc1918}) are treated a potentially aberrant and flagged for further investigation.
+
 \subsection{Ethical Aspects}
-% The problem.
-Atlas was not designed as censorship analysis platform and accordingly, its
+
+Atlas was not designed as interference analysis platform and accordingly, its
 volunteers likely do not expect that their probes will be used for such
 purposes.  Careless measurements could attract a censor's attention and cause
 repercussions for probe operators.  In addition, an increased used of Atlas for
-censorship analysis could scare away probe operators and jeopardize the
-usefulness of the platform.
+politically-sensitive analysis could scare away probe operators and jeopardize the
+usefulness of the platform. These concerns extend beyond merely complying with Atlas's
+acceptable usage policies and guide our selection of measurements.
 
 Atlas' measurement types are limited to ping, traceroute, DNS requests and
 X.509 certificate fetching.  As of May 2014, it is not possible to create HTTP
 requests or engage in actual, meaningful communication with arbitrary
-destinations, which limits the damage caused by reckless measurement.
-Nevertheless, we stress that great care must be taken when planning
-measurements because the volume of measurements could still be suspicious.
+destinations, which limits the damage caused by reckless measurement. We are not aware of environments where network queries to commonly frequented platforms or services solicit attention from authorities, even when blocked, nor where answers are falsified in order to mitigate research. Requests for sites such as Facebook are generated as a part of normal web use due to script inclusion and Google Public DNS is commonly used due to its reliability. Highly trafficked sites are a different subset of potential monitoring candidates than content promoting child abuse or violent extremism. 
 
-For a more comprehensive ethical discussion, refer to Wright et
-al.~\cite[\S~5]{Wright2011}.
+The balance between research interests and exposure to risk is an area of concern shared across all initiatives identified in Section~\ref{related_work}. This has stimulated a broader discussion that will play a factor in future utilization of Atlas. Nevertheless, we stress that great care must be taken when planning measurements because the volume and types of measurements could still be suspicious. For a more comprehensive ethical discussion, refer to Wright et al.~\cite[\S~5]{Wright2011}.
