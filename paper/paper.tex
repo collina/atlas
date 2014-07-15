@@ -24,19 +24,20 @@
 
 \usepackage{usenix,epsfig,endnotes}
 \usepackage{flushend}
-\usepackage{hyperref}
+\usepackage[draft]{hyperref}
 \usepackage{color}
 \usepackage[backend=bibtex,sortcites]{biblatex}
 \bibliography{bibliography}
+\usepackage{multirow}
 
 % Don't use monospace URLs.
 \urlstyle{sf}
 
 \definecolor{dred}{rgb}{0.8,0,0}
 \hypersetup{
-	pdftitle={Global Censorship Detection over the RIPE Atlas Network},
+	pdftitle={Global Network Interference over the RIPE Atlas Network},
 	pdfauthor={Collin Anderson, Philipp Winter, Roya},
-	pdfkeywords={ripe atlas, censorship, measurement},
+	pdfkeywords={ripe atlas, censorship, filtering, network interference, measurement},
 	colorlinks=true,
 	urlcolor=blue,
 	linkcolor=blue,
@@ -50,7 +51,7 @@
 
 %make title bold and 14 pt font (Latex default is non-bold, 16 pt)
 \title{
-	\Large \bf Global Censorship Detection \\
+	\Large \bf Global Network Interference Detection \\
 	over the RIPE Atlas Network
 }
 
@@ -73,15 +74,7 @@
 
 \subsection*{Abstract}
 
-Existing network interference measurement platforms frequently suffer from poor adoption,
-insufficient geographic coverage, and scalability problems.  In order to
-overcome these issues, we build on top of the already existing RIPE Atlas
-platform.  In particular, we propose methods for monitoring the reachability of
-vital services through an algorithm that balance timeliness, diversity, and
-cost.  We then use Atlas to investigate blocking events in Turkey and Russia.
-Our measurements uncovered evidence of cooperation between a well-known
-blogging platform and government authorities for purposes of blocking hosted
-content.
+As Internet filtering practices proliferate internationally, researchers can no longer presume the consistent and homogenous imposition of information controls, evoking the need for pervasive observation longitudinally across national networks. Existing interference measurement platforms frequently suffer from poor adoption, insufficient geographic coverage, and scalability problems. Therefore, in order to outline an analytical framework and data collection needs for future ubiquitous measurements initiatives, we build on top of the existent and widely-deployed RIPE Atlas platform. We propose methods for monitoring the reachability of vital services through an algorithm that balance timeliness, diversity, and cost. We then use Atlas to investigate blocking events in Turkey and Russia. Our measurements uncover previously under-examined forms of interference and evidence of cooperation between a well-known blogging platform and government authorities for purposes of blocking hosted content.
 
 \input{introduction}
 

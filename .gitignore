@@ -30,3 +30,11 @@ code/cartographer/info.log
 code/cartographer/info.log
 
 code/cartographer/state.db3
+
+*.bib
+
+*.dvi
+
+*.out
+
+*.xml

@@ -4,7 +4,7 @@
 After having presented our measurement platform and parameters, built on top of
 Atlas, we now evaluate it by discussing two cases of large-scale
 restrictions on online content and social media platforms.  In particular, Turkey's ban on social media platforms in
-Section~\ref{sec:turkey} and Russia's filtering of opposition LiveJournal content~\ref{sec:russia}. All dates and times reported follow Coordinated Universal Time.
+Section~\ref{sec:turkey} and Russia's filtering of opposition LiveJournal content in Section~\ref{sec:russia}. All dates and times reported follow Coordinated Universal Time.
 
 % *** Can I try to negotiate with all dir authorities?
 
@@ -20,24 +20,21 @@ Twitter across the country's service providers.
 
 Turkey's Internet filtering has previously been characterized as DNS tampering and
 IP blocking \cite{akdeniz2010report}, which both fall under the measurements
-possible through Atlas.  Upon news of the Twitter ban, we began periodic
-measurements over Atlas.  Through the ten probes, covering nine ASNs, we
+possible through Atlas.  Upon news of the Twitter ban, we
 scheduled hourly measurements of local DNS answers, SSL connectivity, and
 Traceroute reachability for Twitter, YouTube, Google Public DNS and the Tor
-Project.  The selected measurement targets sought to longitudinally
+Project through ten probes, covering nine ASNs.  The selected measurement targets sought to longitudinally
 document the Turkish government's disruption of controversial political
 content, identified based statements by authorities and potential usefulness for
 circumventing information controls. Seeking to address an immediate interest for real-time
 awareness, the measurements did not attempt to assess the whole of Turkey's content
-restrictions.
-
-As illustrated in Figure~\ref{image:tr-social_media_filtering}, we
+restrictions. As illustrated in Figure~\ref{image:tr-social_media_filtering}, we
 found at least six shifts in content restrictions and blocking strategies
 within a two week period.
 
 \begin{figure*}
   \centering
-  \includegraphics[width=0.8\textwidth]{resources/tr-20140321-20140407-social_media_filtering.png}
+  \includegraphics[width=0.9\textwidth]{diagrams/tr-20140321-20140407-social_media_filtering.png}
   \caption{Disruption of Social Media Platforms in Turkey, March -- April 2014}
   \label{image:tr-social_media_filtering}
 \end{figure*}
@@ -66,7 +63,7 @@ of the ban.
 % indications more tweets were sent after the restrictions than before, prompted
 % broader crackdown by authorities.
 On the morning of March 22nd (see Figure~\ref{image:tr-social_media_filtering},
-Event A), between 01:00 and 02:00, backbone providers Tellcom Iletisim
+\textbf{Event A}), between 01:00 and 02:00, backbone providers Tellcom \.{I}leti\c{s}im
 Hizmetleri and Turk Telekom began disrupting Google's Public DNS service
 through the IP blocking of its two prominent addresses (8.8.8.8 and 8.8.4.4).
 % This restriction would have disrupted access to filtered and non-filtered sites
@@ -75,7 +72,7 @@ through the IP blocking of its two prominent addresses (8.8.8.8 and 8.8.4.4).
 % necessarily indicative of an intent to circumvent filters. By some metrics
 % 18.3\% of Internet users in Turkey rely on Google Public DNS
 % \cite{ispcolumn2013googledns}. Given this cost, within hours,
-By 6:00 the same morning, the DNS blocking had been removed across all ISPs.
+By 06:00 the same morning, the DNS blocking had been removed across all ISPs.
 Instead, to buttress the restrictions, providers shortly began to drop all
 outgoing traffic to addresses associated with the twitter.com domain,
 regardless of port or provider (\textbf{Event B}). By 16:00 of that
@@ -86,9 +83,9 @@ On March 27 (\textbf{Event C}), after recordings were posted of Turkish
 national security officials discussing possible military action against Syria,
 YouTube was blocked through false DNS answers for the youtube.com domain.
 Within the Atlas network, this restriction appears as a slow decline in the
-number of probes able to establish a connection to the media platform. However, unlike Twitter, a
+number of probes able to establish a connection to the platform. However, unlike Twitter, a
 significant minority of probes remained able to communicate with YouTube.
-Google's intertwined infrastructure presents substantial risk of collateral damage that could result from address or network prefix restrictions, which were not
+Google's intertwined infrastructure presents risk of collateral damage with network prefix restrictions, which were not
 present with Twitter. Thus, clients that were able to receive a valid address could reliably bypass the ban.
 
 % Although the BTK is alleged to have ordered the installation of deep packet
@@ -110,22 +107,40 @@ connected due to their use of foreign DNS services.
 
 Later in the evening, March 28, hosts querying foreign-based DNS servers began to
 receive the same false answers as those provided domestically, leading to a
-rapid drop in reported availability of YouTube and Tor (\textbf{Event E}). A
-publicly-available traceroute measurement scheduled by third-parties on the Atlas network 
-against Google's Public DNS returned idiosyncratic and
+rapid drop in availability of YouTube and Tor (\textbf{Event E}). A
+publicly-available traceroute scheduled by third-parties on the Atlas network 
+against Google Public DNS returned idiosyncratic and
 spontaneous shifts in Turkey's network topology timed with these
-changes. These shift appears within traceroutes as a shortening in the
-number of hops to Google with a multifold reduction in traffic latency and the
+changes. This appears within traceroutes as a shortening in the
+number of hops to Google, with a multifold reduction in traffic latency and the
 absence of international hosts in path. The core telecommunications provider
 Turk Telekom had begun to reroute traffic destined for Google to a local DNS
 server. Only TEKNOTEL Telekom maintained
-consistently valid routes for Google Public DNS, through Telecom Italia
+consistently valid routes for Google, through Telecom Italia
 Sparkle. However, two days later Doruk \.{I}leti\c{s}im and Net Elektronik
 Tasar{\i}m reestablished connectivity through Euroweb Romania, circumventing upstream interference. Turk Telekom's redirection was finally removed late on April 7.
 
-By April 3th, despite continued hijacking of Google's Public DNS for filtering
-purposes and interference with YouTube, Twitter was unblocked for all probes
+By April 3th, despite continued hijacking of Google Public DNS and interference with YouTube, Twitter was unblocked for all probes
 (\textbf{Event F}).
+
+\begin{table}
+    \begin{tabular}{l | c | c | c | c}
+        \textbf{Target} & \textbf{Type}  & \textbf{Probes}  & \textbf{Freq (s)}  & \textbf{Credits}\\
+        \hline
+		 Twitter & SSL & 10 & 3600 & 2400 \\
+		 YouTube & SSL & 10 & 3600 & 2400 \\
+		 Tor & SSL & 10 & 3600 & 2400 \\
+		 Twitter & DNS (U) & 10 & 3600 & 2400 \\
+		 YouTube & DNS (U) & 10 & 3600 & 2400 \\
+		 Twitter & Tracert & 10 & 3600 & 7200 \\
+        \hline
+        \multicolumn{4}{l}{\textit{Total (Daily)}}  & 19200\\
+        \multicolumn{4}{l}{\textit{Probes Required}} & 0.89\\
+        \hline        
+    \end{tabular}
+    \caption{Cost of Measurements for Section~\ref{sec:turkey}}
+    \label{table:tr-costs}
+\end{table}
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 \subsection{Private sector cooperation in Russian filtering of Alexei Navalny}
@@ -181,7 +196,7 @@ network space.
 
 In contrast to Grani, a locally-resolved DNS query for navalny.livejournal.com
 over 255 probes on 146 ASNs received a consistent reply of 208.93.0.190, which
-matched answers regionally with only one anomalous response, a formerly valid
+matched answers internationally with only one anomalous response, a formerly valid
 address. The blocking of Navalny's blog must be different from Grani. While the
 returned DNS A record of 208.93.0.190 falls within a network prefix owned by
 LiveJournal Inc. (208.93.0.0/22), over the 1462 LiveJournal subdomains in
@@ -200,14 +215,14 @@ activities or extremism, and two are listed within publicly-available filter
 site lists. 
 
 \begin{figure*}
-  \includegraphics[width=\textwidth]{resources/atlas_cache-results-measurement_id-1663748.png}
+  \includegraphics[width=\textwidth]{diagrams/atlas_cache-results-measurement_id-1663748.png}
   \caption{Rostelecom (AS12389) Hijack of grani.ru Traffic, April 30 2014}
   \label{image:ru-grani-hijack}
 \end{figure*}
 
-Based on timing, publicly-available history, available domain names records,
-and Atlas network measurements, it appears that a host was specially
-established to faciliate Russian restrictions on content within the LiveJournal platform. 
+Based on timing, filtering lists, available domain names records,
+and Atlas network measurements, it appears that a host was specially-established 
+to faciliate Russian restrictions on content within the LiveJournal platform. 
 Using HTTPS Ecosystem Scans as a metric of accessibility
 \cite{projectsonar}, the LiveJournal frontend at 208.93.0.190 came online
 between February 10 and February 17, with the address otherwise unused until
@@ -240,10 +255,8 @@ Segregated LiveJournal content and blacklisted addresses are subject to an
 additional, unknown method of network-layer interception performed within the
 backbone network of Rostelecom (AS12389). While blog content is not
 accessible over HTTPS, frontend hosts for LiveJournal offer SSL services for the purpose of
-securing the transmission of user credentials. As of April 28, 255 of 343
-probes within Russia were able to retrieve a valid and consistent LiveJournal
-SSL Certificate from the alternative LiveJournal host by address. Another 78
-probes returned either irregular responses or failed to connect, of which 40
+securing the transmission of user credentials. On April 28, 78 of 343 Russian
+probes returned either irregular responses or failed to connect to the alternative LiveJournal host by address, of which 40
 probes on 29 ASNs returned SSL certificates with common name or locations
 fields attributed to Russian ISPs. Based on HTTPS data, the four aberrant
 certificates captured have been seen previously on seven Russian addresses
@@ -255,7 +268,7 @@ indicative of port blocking by other intermediaries or the redirection of
 traffic to a server that is not listening for SSL connections.
 
 The invalid certificates indicate that an intermediary in transit has
-intercepted or redirected the traffic out of its expected path to a third-party
+redirected the traffic out of its expected path to a third-party
 server controlled by Russian entities. This approach is different from the
 normal man-in-the-middle injection of responses seen in countries such as Iran and Syria, and
 ellucidates the potential for Russian ISPs to falsify content or gather user
@@ -265,10 +278,5 @@ Figure~\ref{image:ru-grani-hijack}. This holistic interference across Rostelecom
 redirection at the network layer, rather than application-based classification of traffic associated with deep packet inspection. Moreover,
 adjacent addresses within the same network, such as the normal frontend for
 LiveJournal, traverse a valid international path. Instead, blacklisted traffic
-appears to be coerced into a path controlled by Rostelecom that is otherwise
-not taking for destinations, indicating a narrowly-crafted interference with
+appears to be coerced into a path controlled by Rostelecom, indicating a narrowly-crafted interference with
 normal routing through false advertisements or forwarding.
-
-\subsection{Cost of experiments}
-% TODO
-% Do we now how many credits we spent on the experiments?
