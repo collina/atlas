@@ -18,7 +18,7 @@ An ideal measurement platform features high geographic and
 topological diversity, thereby facilitating measurements in any region where
 filtering occurs.  While Atlas probes are distributed throughout the world,
 there is a significant bias towards the U.S. and Europe as can be seen in
-Figure~\ref{fig:probe_distribution}.  As for Atlas' topography, only 68
+Figure~\ref{fig:probe_distribution}.  As for Atlas's topography, only 68
 autonomous systems contain 40\% of all Atlas probes with the three most common
 autonomous system numbers being AS7922 (4.4\%, Comcast Cable Communications),
 AS3320 (3.2\%, Deutsche Telekom), and AS6830 (2.8\%, Liberty Global Operations).
@@ -50,20 +50,21 @@ Atlas to replace existing platforms, such as OONI, but rather to
 % experiments and then it will give you predicted cost. This way we can move to
 % cost function.
 
-\subsection{Atlas cost model}
+\subsection{Atlas's cost model}
 
-As previously mentioned, Atlas measurements are paid with platform
-credits.  The exact ``price'' of a measurement depends on the measurement type,
-its parameters, and the number of destinations.  The credit system works based on a
+As previously mentioned, Atlas measurements are paid with platform credits.
+The exact ``price'' of a measurement depends on the measurement type, its
+parameters, and the number of destinations.  The credit system works based on a
 linear cost model.  Each user has a credit balance that can be increased
-steadily by hosting Atlas probes\footnote{As of June 2014, 21,600.00 credits per day of uptime.} or by receiving credits from other users.
+steadily by hosting Atlas probes\footnote{As of June 2014, 21,600 credits per
+day of uptime.} or by receiving credits from other users.
 
 Table~\ref{tab:cost} lists the currently available measurement types as well as
 their associated costs.  While DNS and SSLCert measurements have a fixed cost,
 ping and traceroutes vary depending on the amount and sizes of packets.  Also,
 one-off measurements cost twice as much as repeated measurements.  When
 scheduling a new experiment, the user first specifies the details (e.g.,
-measurement type as well as measurement parameters).  Afterwards, Atlas'
+measurement type as well as measurement parameters).  Afterwards, Atlas's
 web-based frontend calculates the measurement costs on the server side and
 shows it to the user.  Finally, upon completion of the measurement, the
 respective cost is subtracted from the user's credit balance.
@@ -108,7 +109,7 @@ DNS\slash DNS6 (TCP) & 20\\
 DNS\slash DNS6 (UDP) & 10\\ 
 SSLCert\slash SSLCert6 & 10 \\
 Ping\slash Ping6 & $N * (int(S/1500)+1)$\\
-Traceroute\slash Traceroute6 & $ 10*N*(int(S/1500)+1)$\\[1ex] 
+Traceroute\slash Traceroute6 & $ 10*N*(int(S/1500)+1)$\\
 \hline 
 \end{tabular} 
 \caption{The cost for all available Atlas measurements.  The variable $N$
@@ -117,7 +118,7 @@ sizes.}
 \label{tab:cost} 
 \end{table}
 
-\subsection{Considerations in Assessing Measurement Integrity}
+\subsection{Assessing measurement integrity}
 
 Despite their distribution across a diversity of countries and networks,
 RIPE Atlas may not fully reflect the Internet as it is experienced by
@@ -133,14 +134,14 @@ inevitable product of the high rate of placement of probes on commercial
 and academic networks. These institutions may have alternative
 connectivity that is faster and less highly regulated than consumer
 networks. Additionally, disrupting or degrading connections based on
-plaintext data, traffic classification or application headers would fall
+plain text data, traffic classification or application headers would fall
 outside of the measurements currently possible with Atlas probes.
 Lastly, Atlas, as with most measurements outlined within
 Section~\ref{related_work}, is unlikely to detect content restrictions
 imposed by the platforms themselves, such as search manipulation or 
 withholding of content based on a user's location.
 
-\subsection{Rough Consensus Validity}
+\subsection{Rough consensus validity}
 
 The international distribution of web services, such as content delivery
 networks, has created additional complexity in the determining whether
@@ -148,7 +149,7 @@ measurement results are genuine. While SSL and DNSSEC utilize
 third-party trust to validate answers, Certificate Authorities have been
 previously compromised by state and non-state actors, and DNSSEC is not
 widely implemented. In order to validate answers within the Atlas
-network, we use a cross-country comparision of results to queries. This
+network, we use a cross-country comparison of results to queries. This
 methodology assumes that intermediaries who interfere with connectivity
 do not coordinate strategies internationally. States and service
 providers impose different filtering approaches for purposes of
@@ -159,10 +160,10 @@ a strong incentive on secrecy. Therefore, as a simple test of validity,
 we count the number of countries or ASNs that an answer, such as a DNS A
 record, final network of transit or a certificate hash, is seen. Any
 response with fewer than the mean number of jurisdictions, or those
-within private network spaces (RFC 1918~\cite{rfc1918}), are treated a
+within private network spaces (RFC 1918~\cite{rfc1918}), are treated as
 potentially aberrant and flagged for further investigation.
 
-\subsection{Ethical Aspects}
+\subsection{Ethical aspects}
 
 Atlas was not designed explicitly for analysis of information controls
 and accordingly, its volunteers likely may not expect that their probes
@@ -173,7 +174,7 @@ away probe operators and jeopardize the usefulness of the platform.
 These concerns extend beyond merely complying with Atlas's acceptable
 usage policies and guide our selection of measurements.
 
-Atlas' measurement types are limited in scope.  As of May 2014, it is
+Atlas's measurement types are limited in scope.  As of May 2014, it is
 not possible to create HTTP requests or engage in actual, meaningful
 communication with arbitrary destinations, which limits the damage
 caused by reckless measurement. We are not aware of environments where

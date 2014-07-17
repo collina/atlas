@@ -25,7 +25,7 @@ Turkey's Internet filtering has previously been characterized as DNS
 tampering and IP blocking \cite{akdeniz2010report}, which both fall
 under the measurements possible through Atlas.  Upon news of the Twitter
 ban, we scheduled hourly measurements of local DNS answers, SSL
-connectivity, and Traceroute reachability for Twitter, YouTube, Google
+connectivity, and traceroute reachability for Twitter, YouTube, Google
 Public DNS and the Tor Project through ten probes, covering nine ASNs. 
 The selected measurement targets sought to longitudinally document the
 Turkish government's disruption of controversial political content,
@@ -47,9 +47,9 @@ period.
 
 While the BTK and compliant ISPs rely on DNS manipulation and IP
 blocking, it appears that the former is more popular.  As of April 24,
-2014, the Turkish-language anti-censorship site \textit{Engelliweb},
+2014, the Turkish-language anti-censorship site Engelliweb~\cite{Engelliweb},
 which tracks blocked content, only lists 167 IP addresses restricted in
-country, compared to 40,566 domain names \cite{engelliweb}. In absence
+country, compared to 40,566 domain names. In absence
 of address blocking or HTTP filtering, users that received valid DNS
 answers for Twitter's domain names could browse without further
 interference. As a result, foreign DNS servers quickly became both a
@@ -84,7 +84,7 @@ Beginning March 28, Turkish probes began to fail to establish SSL
 connections to torproject.org (\textbf{Event D}). However, this
 restriction neither included IP blocking, nor apparent interference with
 the accessibility of the actual Tor network. Atlas probes could continue
-to negotiate valid connections to Tor's Directory Authories. Throughout
+to negotiate valid connections to Tor's directory authories. Throughout
 the increased manipulation of local DNS services, nearly half of the
 Atlas probes remained connected due to their use of foreign DNS services.
 
@@ -108,24 +108,25 @@ April 7.
 
 By April 3, despite continued hijacking of Google Public DNS and
 interference with YouTube, Twitter was unblocked for all probes
-(\textbf{Event F}).
+(\textbf{Event F}).  The total measurement credits we spent in order to conduct
+this experiment are shown in Table~\ref{table:tr-costs}.
 
 \begin{table}
-    \begin{tabular}{l | c | c | c | c}
+    \begin{tabular}{l c c c c}
         \textbf{Target} & \textbf{Type}  & \textbf{Probes}  & \textbf{Freq (s)}  & \textbf{Credits}\\
         \hline
-		 Twitter & SSL & 10 & 3600 & 2400 \\
-		 YouTube & SSL & 10 & 3600 & 2400 \\
-		 Tor & SSL & 10 & 3600 & 2400 \\
-		 Twitter & DNS (U) & 10 & 3600 & 2400 \\
-		 YouTube & DNS (U) & 10 & 3600 & 2400 \\
-		 Twitter & Tracert & 10 & 3600 & 7200 \\
+		 Twitter & SSL & 10 & 3,600 & 2,400 \\
+		 YouTube & SSL & 10 & 3,600 & 2,400 \\
+		 Tor & SSL & 10 & 3,600 & 2,400 \\
+		 Twitter & DNS (U) & 10 & 3,600 & 2,400 \\
+		 YouTube & DNS (U) & 10 & 3,600 & 2,400 \\
+		 Twitter & Tracert & 10 & 3,600 & 7,200 \\
         \hline
-        \multicolumn{4}{l}{\textit{Total (Daily)}}  & 19200\\
-        \multicolumn{4}{l}{\textit{Probes Required}} & 0.89\\
+        \multicolumn{4}{l}{\textit{Total (Daily)}}  & 19,200\\
+        \multicolumn{4}{l}{\textit{Probes required}} & 0.89\\
         \hline        
     \end{tabular}
-    \caption{Cost of Measurements for Section~\ref{sec:turkey}}
+    \caption{Cost of measurements for Section~\ref{sec:turkey}.}
     \label{table:tr-costs}
 \end{table}
 
@@ -158,8 +159,8 @@ consistent reply of 208.93.0.190, which matched answers internationally
 with only one anomalous response, a formerly valid address. The blocking
 of Navalny's blog must be different from Grani. While the returned DNS A
 record of 208.93.0.190 falls within a network prefix owned by
-LiveJournal Inc. (208.93.0.0/22), over the 1462 LiveJournal subdomains
-in Alexa's Top 1 million list, 1450 blogs resolved to another address,
+LiveJournal Inc. (208.93.0.0/22), over the 1,462 LiveJournal subdomains
+in Alexa's Top 1 million list, 1,450 blogs resolved to another address,
 208.93.0.150. Based on requests made independently of the Atlas network
 from Europe, both hosts appear to be front servers for the LiveJournal
 platform, as they return the same SSL Certificate and content. Requests
@@ -177,7 +178,7 @@ two are listed within publicly-available filter site lists.
 
 \begin{figure*}
   \includegraphics[width=\textwidth]{diagrams/atlas_cache-results-measurement_id-1663748.png}
-  \caption{Rostelecom (AS12389) Hijack of grani.ru Traffic, April 2014}
+  \caption{Rostelecom's (AS12389) hijack of grani.ru Traffic in April 2014.}
   \label{image:ru-grani-hijack}
 \end{figure*}
 
@@ -200,7 +201,7 @@ Roskomnadzor, in order to segregate blacklisted content from the rest of
 the platform.
 
 \begin{table}
-    \begin{tabular}{l | c | c}
+    \begin{tabular}{l c c}
         \textbf{Subdomain} & \textbf{Language} & \textbf{Roskomnadzor}\\
         \hline
         drugoi-nnover & Russian & Yes\\
@@ -210,7 +211,7 @@ the platform.
         navalny & Russian & Yes \\
         \hline
     \end{tabular}
-    \caption{LiveJournal DNS A Records of 208.93.0.190}
+    \caption{LiveJournal DNS A Records of 208.93.0.190.}
     \label{table:lj-blocked-blogs}
 \end{table}
 
